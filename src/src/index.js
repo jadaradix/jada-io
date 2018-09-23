@@ -3,31 +3,65 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import Brick from './components/Brick/Brick'
+import Link from './components/Link/Link'
+
+// <time datetime="2018-09-23">September 23, 2018</time>
 
 class App extends PureComponent {
   render() {
     return (
       <main>
-        <Brick>
-          <h1>James Garner</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus ullamcorper elit, nec ultricies eros tempus ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris vestibulum lacus in ipsum sollicitudin, et bibendum purus rhoncus.</p>
-          <p>Nulla feugiat rutrum suscipit. Praesent consectetur ornare dolor, in viverra nulla placerat et. Nam tincidunt placerat purus vitae fermentum. Vestibulum dolor ante, placerat ut porta in, vulputate sed nisl. In mauris erat, porttitor nec ornare non, mollis non tellus. Praesent pulvinar quis magna rhoncus blandit.</p>
-          <p>Praesent commodo cursus eros ut sollicitudin. Sed elementum, tortor sed tempus pretium, enim leo aliquam neque, ut hendrerit neque diam a tellus. Aenean eu eros velit.</p>
+        <Brick backgroundColor='rgb(235, 235, 235)'>
+          <h1>Who I am</h1>
+          <p>
+            Hi <span role='img' aria-label='hi'>🙌</span>. I'm James and I help companies transform their talent function, reducing their time to hire and improving recruitment ROI.
+          </p>
+          <p>
+             I do this by implementing a world class hiring work flow that treats candidates like customers and reduces the dependency on recruitment agencies.
+          </p>
+          <p>
+            I have a &ldquo;deep tech&rdquo; background as an Entrepreneur First alum and Computer Science graduate. I've worked on both sides of the Atlantic for PlayStation, Arcadia Group and startups from seed stage to Series B and beyond.
+          </p>
+          <Link href='https://cv.jada.io'>View my résumé</Link>
         </Brick>
-        <Brick>
-          <p>Brick 2</p>
+        <Brick backgroundColor='rgb(245, 245, 245)'>
+          <h1>What I do</h1>
+          <p>
+            Do you struggle to attract the best talent in a candidates&rsquo; market? If these things sound familiar, you&rsquo;re not alone:
+          </p>
+          <ul>
+            <li>Poor recruitment ROI due to dependency on agencies charging up to 20% of each successful hire</li>
+            <li>Painfully long time to hire, especially for hard to fill roles in management and engineering</li>
+            <li>Low application rate (too few inbound candidates)</li>
+            <li>Low conversion rate (too few candidates engaged by the final stage)</li>
+          </ul>
+          <p>
+            Don&rsquo;t worry. I&rsquo;m here to help. I built Beamery Pages and have helped Facebook, Grab and Balfour Beatty transform their talent function. This makes me uniquely qualified to transform talent at the world&rsquo;s biggest companies, including yours.
+          </p>
         </Brick>
-        <Brick>
-          <p>Brick 3</p>
+        <Brick backgroundColor='rgb(245, 245, 245)'>
+          <h1>What you get</h1>
+          <p>
+            I implement a world class talent work flow which treats candidates like customers.
+          </p>
+          <ul>
+            <li>I teach you the fundamentals of Recruitment Marketing. I teach HR to think like salespeople.</li>
+            <li>I build you an engaging careers brand that is easy to develop further without my help.</li>
+            <li>I reduce your time to hire by teaching you how to build relationships with candidates before they apply. You will have a continuously growing pipeline of candidates who are a good fit, even before a vacancy comes up.</li>
+            <li>I show you how to re-engage candidates that &ldquo;fell through the net&rdquo;.</li>
+            <li>I demonstrate best practices on interviewing and testing engineering candidates.</li>
+          </ul>
         </Brick>
-        <Brick>
-          <p>Brick 4</p>
-        </Brick>
-        <Brick>
-          <p>Brick 5</p>
-        </Brick>
-        <Brick>
-          <p>Brick 6</p>
+        <Brick backgroundColor='rgb(250, 250, 250)'>
+          <h1>What I cost</h1>
+          <p>I like to be upfront about cost. After all, the key to happiness is aligned expectations.</p>
+          <ul>
+            <li>My day rate is &pound;1000. There are no additional costs; I have my own equipment and I come to you &mdash; anywhere in the world.</li>
+            <li>Results are typically obvious within the first week but the most impactful engagements are around one month long.</li>
+            <li>I also offer a 10% discount on invoices paid early.</li>
+          </ul>
+          <p>If this seems expensive, remember the cost of recruitment agencies that provide little to no added value.</p>
+          <p>Hiring a senior engineer at &pound;70k can attract an agency fee north of &pound;15,000 &mdash; 3 weeks&rsquo; of my time teaching you how to resolve this dependency on agencies.</p>
         </Brick>
       </main>
     );

@@ -9,8 +9,8 @@ const StyledBrick = styled.section`
   text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 0.1px;
-  border-radius: 4px;
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
   h1 {
     font-size: 2rem;
     font-weight: 800;
@@ -28,6 +28,25 @@ const StyledBrick = styled.section`
   }
   p + p {
     margin-top: 1rem;
+  }
+  p + a {
+    margin-top: 1rem;
+  }
+  p + ul {
+    margin-top: 1rem;
+  }
+  ul + p {
+    margin-top: 1rem;
+  }
+  ul {
+    margin-left: 2rem;
+    color: rgb(48, 48, 48);
+    li {
+      line-height: 1.2rem;
+    }
+    li:not(:last-of-type) {
+      margin-bottom: 0.5rem;
+    }
   }
 `;
 
