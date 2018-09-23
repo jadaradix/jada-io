@@ -11,7 +11,7 @@ class App extends PureComponent {
   render() {
     return (
       <main>
-        <Brick backgroundColor='rgb(235, 235, 235)'>
+        <Brick backgroundColor='rgb(248, 248, 248)'>
           <h1>Who I am</h1>
           <p>
             Hi <span role='img' aria-label='hi'>🙌</span>. I'm James and I help companies transform their talent function, reducing their time to hire and improving recruitment ROI.
@@ -22,9 +22,10 @@ class App extends PureComponent {
           <p>
             I have a &ldquo;deep tech&rdquo; background as an Entrepreneur First alum and Computer Science graduate. I've worked on both sides of the Atlantic for PlayStation, Arcadia Group and startups from seed stage to Series B and beyond.
           </p>
+          <Link href='mailto:j@jada.io'>E-mail me</Link>
           <Link href='https://cv.jada.io'>View my résumé</Link>
         </Brick>
-        <Brick backgroundColor='rgb(245, 245, 245)'>
+        <Brick>
           <h1>What I do</h1>
           <p>
             Do you struggle to attract the best talent in a candidates&rsquo; market? If these things sound familiar, you&rsquo;re not alone:
@@ -39,7 +40,7 @@ class App extends PureComponent {
             Don&rsquo;t worry. I&rsquo;m here to help. I built Beamery Pages and have helped Facebook, Grab and Balfour Beatty transform their talent function. This makes me uniquely qualified to transform talent at the world&rsquo;s biggest companies, including yours.
           </p>
         </Brick>
-        <Brick backgroundColor='rgb(245, 245, 245)'>
+        <Brick>
           <h1>What you get</h1>
           <p>
             I implement a world class talent work flow which treats candidates like customers.
@@ -52,7 +53,7 @@ class App extends PureComponent {
             <li>I demonstrate best practices on interviewing and testing engineering candidates.</li>
           </ul>
         </Brick>
-        <Brick backgroundColor='rgb(250, 250, 250)'>
+        <Brick>
           <h1>What I cost</h1>
           <p>I like to be upfront about cost. After all, the key to happiness is aligned expectations.</p>
           <ul>

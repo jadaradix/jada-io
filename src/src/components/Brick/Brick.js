@@ -10,7 +10,7 @@ const StyledBrick = styled.section`
   -webkit-font-smoothing: antialiased;
   letter-spacing: 0.1px;
   border-radius: 8px;
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
   h1 {
     font-size: 2rem;
     font-weight: 800;
@@ -48,6 +48,9 @@ const StyledBrick = styled.section`
       margin-bottom: 0.5rem;
     }
   }
+  a + a {
+    margin-left: 1rem;
+  }
 `;
 
 const Brick = ({ children, backgroundColor }) => (
@@ -65,7 +68,7 @@ Brick.propTypes = {
 };
 
 Brick.defaultProps = {
-  backgroundColor: 'rgb(250, 250, 250)'
+  backgroundColor: 'rgb(255, 255, 255)'
 };
 
 export default Brick;
