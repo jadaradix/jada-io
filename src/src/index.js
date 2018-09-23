@@ -9,7 +9,22 @@ class App extends PureComponent {
     return (
       <main>
         <Brick>
-          <p>Hello, World.</p>
+          <p>Brick 1</p>
+        </Brick>
+        <Brick>
+          <p>Brick 2</p>
+        </Brick>
+        <Brick>
+          <p>Brick 3</p>
+        </Brick>
+        <Brick>
+          <p>Brick 4</p>
+        </Brick>
+        <Brick>
+          <p>Brick 5</p>
+        </Brick>
+        <Brick>
+          <p>Brick 6</p>
         </Brick>
       </main>
     );
