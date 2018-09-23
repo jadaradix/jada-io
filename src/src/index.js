@@ -1,18 +1,17 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-class App extends Component {
+import Brick from './components/Brick/Brick'
+
+class App extends PureComponent {
   render() {
     return (
-      <div>
-        <header>
-          <h1>Hello, World.</h1>
-        </header>
-        <p>
-          Hello, World.
-        </p>
-      </div>
+      <main>
+        <Brick>
+          <p>Hello, World.</p>
+        </Brick>
+      </main>
     );
   }
 }
