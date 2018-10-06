@@ -48,8 +48,12 @@ const StyledBrick = styled.section`
       margin-bottom: 0.5rem;
     }
   }
+  // inline elements
+  a {
+    color: rgb(255, 45, 85);
+  }
   a + a {
-    margin-left: 1rem;
+    margin-top: 0.5rem;
   }
 `;
 
