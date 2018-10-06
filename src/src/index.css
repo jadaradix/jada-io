@@ -16,10 +16,11 @@ main > article {
   margin: 0 auto 0 auto;
   max-width: 996px;
   padding: 2rem;
+  padding-top: 3rem;
 }
 
 main > article > h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 main > article > div {

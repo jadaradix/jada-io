@@ -10,6 +10,7 @@ const StyledHeader = styled.h1`
   -webkit-font-smoothing: antialiased;
   color: rgb(204, 204, 204);
   line-height: 3rem;
+  letter-spacing: -2px;
   // background-color: green;
 `;
 

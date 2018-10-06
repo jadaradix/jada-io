@@ -16,6 +16,7 @@ const StyledBrick = styled.section`
     font-weight: 800;
     color: rgb(96, 96, 96);
     line-height: 3rem;
+    letter-spacing: -1px;
     // background-color: green;
   }
   p {
