@@ -4,8 +4,8 @@ import styled from 'styled-components'
 
 const StyledHeader = styled.h1`
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 4rem;
-  line-height: 3rem;
+  font-size: 3rem;
+  line-height: 2rem;
   font-weight: 800;
   -webkit-font-smoothing: antialiased;
   color: rgb(204, 204, 204);

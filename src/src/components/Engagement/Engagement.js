@@ -86,6 +86,9 @@ const StyledEngagement = styled.section`
     p + p {
       margin-top: 0.5rem;
     }
+    a + a {
+      margin-top: 0.5rem;
+    }
   }
 `;
 

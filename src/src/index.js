@@ -38,6 +38,7 @@ class App extends PureComponent {
                 <p>
                   My academic speciality is text and image semantics. I&rsquo;m available for consultancy work from &pound;650/day.
                 </p>
+                <Link href='https://cv.jada.io'>View my CV</Link>
                 <Link href='mailto:j@jada.io'>E-mail me</Link>
               </div>
             </Engagement>
@@ -262,8 +263,6 @@ class App extends PureComponent {
               <p>
                 I have a &ldquo;deep tech&rdquo; background as an Entrepreneur First alum and Computer Science graduate. I've worked on both sides of the Atlantic for PlayStation, Topshop and startups from seed stage to Series B and beyond.
               </p>
-              <Link href='https://cv.jada.io'>View my CV</Link>
-              <Link href='mailto:j@jada.io'>E-mail me</Link>
             </Brick>
             <Brick>
               <h1>What I do</h1>
