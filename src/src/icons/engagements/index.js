@@ -7,6 +7,7 @@ import epsilonData from './files/epsilon-data.svg'
 import relativeInsight from './files/relative-insight.png'
 import datacentred from './files/datacentred.png'
 import nextWorldWeb from './files/next-world-web.png'
+import darkFlow from './files/dark-flow.png'
 import dsGameMaker from './files/ds-game-maker.svg'
 
 export default {
@@ -19,5 +20,6 @@ export default {
   relativeInsight,
   datacentred,
   nextWorldWeb,
+  darkFlow,
   dsGameMaker
 }
