@@ -1,9 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import renderer from 'react-test-renderer';
 import Brick from './Brick';
 
 it('renders', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<Brick />, div);
-  ReactDOM.unmountComponentAtNode(div);
+  const tree = renderer
+    .create(<Brick />)
+    .toJSON();
+  expect(tree).toMatchSnapshot();
 });
