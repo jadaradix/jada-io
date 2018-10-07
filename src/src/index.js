@@ -2,18 +2,251 @@ import React, { PureComponent } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+import icons from './icons'
+
 import Brick from './components/Brick/Brick'
+import Engagement from './components/Engagement/Engagement'
 import Link from './components/Link/Link'
 import Header from './components/Header/Header'
 
-// <time datetime="2018-09-23">September 23, 2018</time>
+const getLink = (engagement) => {
+  return <a className='cv-link' href={`https://cv.jada.io/#engagement-${engagement}`}><img src={icons.generic.link} alt='' /></a>
+}
 
 class App extends PureComponent {
   render() {
     return (
       <main>
+
         <article>
           <Header>James Garner</Header>
+          <div>
+            <Engagement backgroundColor='rgb(248, 248, 248)'>
+              <div>
+                <img src={icons.generic.me} alt='James Garner' style={{borderRadius: '4px'}} />
+                <p>
+                  <time dateTime="2018-01-01">2018</time>&ndash;
+                </p>
+              </div>
+              <div>
+                <p>
+                  I&rsquo;m a founder with deep skills in transforming engineering and talent.
+                </p>
+                <p>
+                  As a CompSci grad I helped reverse engineer the PlayStation 4 and until 2011 thousands of teenagers learnt to code with my software DS Game Maker. My academic speciality is text and image semantics.
+                </p>
+                <p>
+                  I&rsquo;m available for consultancy work from &pound;650/day.
+                </p>
+                <Link href='mailto:j@jada.io'>E-mail me</Link>
+              </div>
+            </Engagement>
+            <Engagement>
+              {getLink('arcadia-group')}
+              <div class='details'>
+                <img src={icons.engagements.arcadiaGroup} alt='Arcadia Group' />
+                <p>
+                  <time dateTime="2018-07-01">Jul 18</time>&ndash;
+                </p>
+              </div>
+              <div>
+                <h1>Senior Consultant <span>Arcadia Group</span></h1>
+                <p>
+                  On-site via 101 Ways helping transform engineering and replatform to React+Node.js.
+                </p>
+                <p>
+                  Pair-owning greenfield component library used accross 7 brands whilst conducting dozens of technical interviews for 101 Ways.
+                </p>
+              </div>
+            </Engagement>
+            <Engagement>
+              {getLink('storydust')}
+              <div class='details'>
+                <img src={icons.engagements.storydust} alt='Storydust' />
+                <p>
+                  <time dateTime="2018-03-01">Mar 18</time>&ndash;<time dateTime="2018-07-01">Jul 18</time>
+                </p>
+              </div>
+              <div>
+                <h1>Co-founder <span>Storydust</span></h1>
+                <p>
+                  Co-founded Storydust which helped brands create &ldquo;authenticity at scale&rdquo; by letting them curate, license and use their customers&rsquo; Instagram content.
+                </p>
+                <p>
+                  Enterprise grade stack deployed to GCP via Docker+CoreOS including RabbitMQ, Redis, Node.js microservices and React 16 SPA.
+                </p>
+              </div>
+            </Engagement>
+            <Engagement>
+              {getLink('arcadia-entrepreneur-first')}
+              <div>
+                <img src={icons.engagements.entrepreneurFirst} alt='Entrepreneur First' />
+                <p>
+                  <time dateTime="2018-03-01">Mar 18</time>&ndash;<time dateTime="2018-07-01">Jul 18</time>
+                </p>
+              </div>
+              <div>
+                <h1>Alumnus <span>Entrepreneur First</span></h1>
+                <p>
+                  Member of EF&rsquo;s 10<sup>th</sup> cohort in London (EF10).
+                </p>
+                <p>
+                  &ldquo;EF is the best place to find a co-founder, build a company and access the world&rsquo;s best investors. We&rsquo;ve helped build over 140 technology companies collectively worth over $1bn.&rdquo;
+                </p>
+              </div>
+            </Engagement>
+            <Engagement>
+              {getLink('beamery')}
+              <div>
+                <img src={icons.engagements.beamery} alt='Beamery' />
+                <p>
+                  <time dateTime="2017-02-01">Feb 17</time>&ndash;<time dateTime="2018-03-01">Mar 18</time>
+                </p>
+              </div>
+              <div>
+                <h1>Engineer <span>Beamery</span></h1>
+                <p>
+                  Early engineering hire pre-Series A to Series B.
+                </p>
+                <p>
+                  Mentored Founders &amp; Coders interns through a full agile project. Worked one-to-one with Facebook (US), Balfour Beatty, Grab (Singapore) and Greenhouse. Pair-lead development of candidate-facing Beamery Pages product.
+                </p>
+              </div>
+            </Engagement>
+            <Engagement>
+              {getLink('arcadia-playstation')}
+              <div>
+                <img src={icons.engagements.playstation} alt='PlayStation' />
+                <p>
+                  <time dateTime="2016-03-01">Mar 16</time>&ndash;<time dateTime="2017-02-01">Feb 17</time>
+                </p>
+              </div>
+              <div>
+                <h1>Engineer <span>PlayStation</span></h1>
+                <p>
+                  Engineering for PlayStation’s best-in-class developer platform.
+                </p>
+                <p>
+                  Individual responsibility and leadership on application&rsquo;s frontend strategy (build, dependencies, migration to AngularJS). Regular work in San Mateo delivering Angular training to London and Bay Area senior engineers.
+                </p>
+              </div>
+            </Engagement>
+            <Engagement>
+              {getLink('arcadia-epsilon-data')}
+              <div>
+                <img src={icons.engagements.epsilonData} alt='Epsilon Data' />
+                <p>
+                  <time dateTime="2015-01-01">2015</time>&ndash;<time dateTime="2017-01-01">2017</time>
+                </p>
+              </div>
+              <div>
+                <h1>Co-founder <span>Epsilon Data</span></h1>
+                <p>
+                  Epsilon Data was a profitable automated marketing startup.
+                </p>
+                <p>
+                  One-to-one mentoring with the UK&rsquo;s leading ethical tourism charity.
+                </p>
+                <p>
+                  Implemented lead generation by finding Twitter conversations and replying intelligently. Failsafe integrations with Twitter, Google Images, Mapbox, GeoNames and Genderize.io.
+                </p>
+              </div>
+            </Engagement>
+            <Engagement>
+              {getLink('arcadia-relative-insight')}
+              <div>
+                <img src={icons.engagements.relativeInsight} alt='Relative Insight' />
+                <p>
+                  <time dateTime="2014-11-01">Nov 14</time>&ndash;<time dateTime="2015-09-01">Oct 15</time>
+                </p>
+              </div>
+              <div>
+                <h1>Data Scientist <span>Relative Insight</span></h1>
+                <p>
+                  Developed Python web scrapers for high profile brands including Oxford University and Smirnoff.
+                </p>
+                <p>
+                  Published language normalisation algorithms for Mumsnet and Twitter.
+                </p>
+              </div>
+            </Engagement>
+            <Engagement>
+              {getLink('arcadia-datacentred')}
+              <div>
+                <img src={icons.engagements.datacentred} alt='DataCentred' />
+                <p>
+                  <time dateTime="2014-06-01">Jun 14</time>&ndash;<time dateTime="2014-09-01">Sep 14</time>
+                </p>
+              </div>
+              <div>
+                <h1>Developer<span>DataCentred</span></h1>
+                <p>
+                  Co-developed customer facing support app in Ruby on Rails and AngularJS within 3 months, reflecting JIRA activity in real-time.
+                </p>
+                <p>
+                  Implemented LDAP support in open source project phpipam.
+                </p>
+              </div>
+            </Engagement>
+            <Engagement>
+              {getLink('arcadia-next-world-web')}
+              <div>
+                <img src={icons.engagements.nextWorldWeb} alt='Next World Web' />
+                <p>
+                  <time dateTime="2013-06-01">Jun 13</time>&ndash;<time dateTime="2014-09-01">Sep 14</time>
+                </p>
+              </div>
+              <div>
+                <h1>Developer<span>Next World Web</span></h1>
+                <p>
+                  Moved large legacy ecommerce systems to CakePHP, CS-Cart and WordPress.
+                </p>
+                <p>
+                  Automated WordPress theme creation from any site.
+                </p>
+              </div>
+            </Engagement>
+            <Engagement>
+              {getLink('arcadia-dark-flow')}
+              <div>
+                <img src={icons.engagements.darkFlow} alt='Dark Flow' />
+                <p>
+                  <time dateTime="2011-01-01">2011</time>&ndash;<time dateTime="2012-01-01">2012</time>
+                </p>
+              </div>
+              <div>
+                <h1>Developer<span>Dark Flow</span></h1>
+                <p>
+                  Lead a team of 5 developing a &ldquo;true cross platform game maker&rdquo;.
+                </p>
+                <p>
+                  Implemented Mac/Windows/Linux game support through .NET bytecode runner; browser and mobile support through JavaScript generation.
+                </p>
+              </div>
+            </Engagement>
+            <Engagement>
+              {getLink('arcadia-ds-game-maker')}
+              <div>
+                <img src={icons.engagements.dsGameMaker} alt='DS Game Maker' />
+                <p>
+                  <time dateTime="2007-01-01">2007</time>&ndash;<time dateTime="2011-01-01">2011</time>
+                </p>
+              </div>
+              <div>
+                <h1>Founder<span>DS Game Maker</span></h1>
+                <p>
+                  Created famous Nintendo DS homebrew game making software. Sold over 1,500 serial codes and 350 physical &lsquo;Homebrew Kits&rsquo; by age 17.
+                </p>
+                <p>
+                  Software and hardware was adopted at American summer camps and site licenses sold worldwide. International logistics work with Hong Kong and support in German and Dutch.
+                </p>
+              </div>
+            </Engagement>
+          </div>
+        </article>
+
+        <article>
+          <Header>Talent transformation</Header>
           <div>
             <Brick backgroundColor='rgb(248, 248, 248)'>
               <h1>Who I am</h1>
@@ -29,8 +262,8 @@ class App extends PureComponent {
               <p>
                 I have a &ldquo;deep tech&rdquo; background as an Entrepreneur First alum and Computer Science graduate. I've worked on both sides of the Atlantic for PlayStation, Topshop and startups from seed stage to Series B and beyond.
               </p>
+              <Link href='https://cv.jada.io'>View my CV</Link>
               <Link href='mailto:j@jada.io'>E-mail me</Link>
-              <Link href='https://cv.jada.io'>View my résumé</Link>
             </Brick>
             <Brick>
               <h1>What I do</h1>
@@ -64,7 +297,7 @@ class App extends PureComponent {
               <h1>What I cost</h1>
               <p>I like to be upfront about cost. The key to happiness is aligned expectations.</p>
               <ul>
-                <li>My day rate is &pound;1000. There are no additional costs. I have my own equipment and I come to you, anywhere in the world.</li>
+                <li>My day rate is &pound;650. There are no additional costs. I have my own equipment and I come to you, anywhere in the world.</li>
                 <li>Results are typically obvious within the first week but the most impactful engagements are around one month long.</li>
                 <li>I also offer a 10% discount on invoices paid early.</li>
               </ul>
@@ -73,6 +306,7 @@ class App extends PureComponent {
             </Brick>
           </div>
         </article>
+
       </main>
     );
   }
