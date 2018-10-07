@@ -30,13 +30,13 @@ class App extends PureComponent {
               </div>
               <div>
                 <p>
-                  I&rsquo;m a founder with deep skills in transforming engineering and talent.
+                  Hi! I&rsquo;m a founder with deep skills in transforming engineering and talent.
                 </p>
                 <p>
-                  As a CompSci grad I helped reverse engineer the PlayStation 4 and until 2011 thousands of teenagers learnt to code with my software DS Game Maker. My academic speciality is text and image semantics.
+                  From 2007&ndash;2011 thousands of teenagers learnt to code with my software DS Game Maker. As a CompSci grad I helped reverse engineer the PlayStation 4 before working for Sony R&amp;D at 22.
                 </p>
                 <p>
-                  I&rsquo;m available for consultancy work from &pound;650/day.
+                  My academic speciality is text and image semantics. I&rsquo;m available for consultancy work from &pound;650/day.
                 </p>
                 <Link href='mailto:j@jada.io'>E-mail me</Link>
               </div>
