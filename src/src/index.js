@@ -78,7 +78,7 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('arcadia-entrepreneur-first')}
+              {getLink('entrepreneur-first')}
               <div>
                 <img src={icons.engagements.entrepreneurFirst} alt='Entrepreneur First' />
                 <p>
@@ -114,7 +114,7 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('arcadia-playstation')}
+              {getLink('playstation')}
               <div>
                 <img src={icons.engagements.playstation} alt='PlayStation' />
                 <p>
@@ -132,7 +132,7 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('arcadia-epsilon-data')}
+              {getLink('epsilon-data')}
               <div>
                 <img src={icons.engagements.epsilonData} alt='Epsilon Data' />
                 <p>
@@ -153,7 +153,7 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('arcadia-relative-insight')}
+              {getLink('relative-insight')}
               <div>
                 <img src={icons.engagements.relativeInsight} alt='Relative Insight' />
                 <p>
@@ -171,7 +171,7 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('arcadia-datacentred')}
+              {getLink('datacentred')}
               <div>
                 <img src={icons.engagements.datacentred} alt='DataCentred' />
                 <p>
@@ -189,7 +189,7 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('arcadia-next-world-web')}
+              {getLink('next-world-web')}
               <div>
                 <img src={icons.engagements.nextWorldWeb} alt='Next World Web' />
                 <p>
@@ -207,7 +207,7 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('arcadia-dark-flow')}
+              {getLink('dark-flow')}
               <div>
                 <img src={icons.engagements.darkFlow} alt='Dark Flow' />
                 <p>
@@ -225,7 +225,7 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('arcadia-ds-game-maker')}
+              {getLink('ds-game-maker')}
               <div>
                 <img src={icons.engagements.dsGameMaker} alt='DS Game Maker' />
                 <p>
