@@ -1,9 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import renderer from 'react-test-renderer';
 import Link from './Link';
 
 it('renders', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<Link href='https://github.com'>GitHub</Link>, div);
-  ReactDOM.unmountComponentAtNode(div);
+  const tree = renderer
+    .create(<Link href='https://github.com'>GitHub</Link>)
+    .toJSON();
+  expect(tree).toMatchSnapshot();
 });

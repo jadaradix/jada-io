@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<a
+  className="sc-bdVaJa gMHNos"
+  href="https://github.com"
+>
+  GitHub
+</a>
+`;
