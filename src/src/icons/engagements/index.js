@@ -1,0 +1,23 @@
+import arcadiaGroup from './files/arcadia-group.svg'
+import storydust from './files/storydust.svg'
+import entrepreneurFirst from './files/entrepreneur-first.svg'
+import beamery from './files/beamery.svg'
+import playstation from './files/playstation.svg'
+import epsilonData from './files/epsilon-data.svg'
+import relativeInsight from './files/relative-insight.png'
+import datacentred from './files/datacentred.png'
+import nextWorldWeb from './files/next-world-web.png'
+import dsGameMaker from './files/ds-game-maker.svg'
+
+export default {
+  arcadiaGroup,
+  storydust,
+  entrepreneurFirst,
+  beamery,
+  playstation,
+  epsilonData,
+  relativeInsight,
+  datacentred,
+  nextWorldWeb,
+  dsGameMaker
+}
