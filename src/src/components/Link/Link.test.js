@@ -1,6 +1,7 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
-import Link from './Link';
+import React from 'react'
+import renderer from 'react-test-renderer'
+import 'jest-styled-components'
+import Link from './Link'
 
 it('renders', () => {
   const tree = renderer
