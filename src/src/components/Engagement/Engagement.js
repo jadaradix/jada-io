@@ -73,6 +73,7 @@ const StyledEngagement = styled.section`
     p {
       font-size: 0.8rem;
       line-height: 1rem;
+      text-align: justify;
       color: rgb(48, 48, 48);
       // background-color: red;
     }
