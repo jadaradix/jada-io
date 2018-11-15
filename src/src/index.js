@@ -36,7 +36,7 @@ class App extends PureComponent {
                   From 2007&ndash;2011 thousands of teenagers learnt to code with my software DS Game Maker. As a CompSci grad I helped reverse engineer the PlayStation 4 before working for Sony R&amp;D at 22.
                 </p>
                 <p>
-                  My academic speciality is text and image semantics. I&rsquo;m available for consultancy work from &pound;650/day.
+                  My academic speciality is text and image semantics. I&rsquo;m available for consultancy work from &pound;600/day.
                 </p>
                 <Link href='https://cv.jada.io'>View my CV</Link>
                 <Link href='mailto:j@jada.io'>E-mail me</Link>
@@ -47,7 +47,7 @@ class App extends PureComponent {
               <div class='details'>
                 <img src={icons.engagements.arcadiaGroup} alt='Arcadia Group' />
                 <p>
-                  <time dateTime="2018-07-01">Jul 18</time>&ndash;
+                  <time dateTime="2018-07-01">Jul 18</time>&ndash;<time dateTime="2018-10-01">Oct 18</time>
                 </p>
               </div>
               <div>
@@ -296,7 +296,7 @@ class App extends PureComponent {
               <h1>What I cost</h1>
               <p>I like to be upfront about cost. The key to happiness is aligned expectations.</p>
               <ul>
-                <li>My day rate is &pound;650. There are no additional costs. I have my own equipment and I come to you, anywhere in the world.</li>
+                <li>My day rate is &pound;600. There are no additional costs. I have my own equipment and I come to you, anywhere in the world.</li>
                 <li>Results are typically obvious within the first week but the most impactful engagements are around one month long.</li>
                 <li>I also offer a 10% discount on invoices paid early.</li>
               </ul>
