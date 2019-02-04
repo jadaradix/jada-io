@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 const StyledEngagement = styled.section`
@@ -40,7 +40,6 @@ const StyledEngagement = styled.section`
       border: 0;
       border-top-left-radius: 4px;
       border-top-right-radius: 4px;
-      background-color: red;
     }
     > p {
       text-align: center;
@@ -66,7 +65,7 @@ const StyledEngagement = styled.section`
       margin-top: 0.75rem;
       // background-color: green;
       > span {
-        margin-left: 2px;
+        margin-left: 4px;
         color: rgb(204, 204, 204);
       }
     }
@@ -90,13 +89,13 @@ const StyledEngagement = styled.section`
       margin-top: 0.5rem;
     }
   }
-`;
+`
 
 const Engagement = ({ children, backgroundColor }) => (
-  <StyledEngagement style={{backgroundColor}}>
+  <StyledEngagement style={{ backgroundColor }}>
     {children}
   </StyledEngagement>
-);
+)
 
 Engagement.propTypes = {
   backgroundColor: PropTypes.string,
@@ -104,10 +103,10 @@ Engagement.propTypes = {
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node
   ])
-};
+}
 
 Engagement.defaultProps = {
   backgroundColor: 'rgb(255, 255, 255)'
-};
+}
 
-export default Engagement;
+export default Engagement

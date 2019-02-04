@@ -1,3 +1,5 @@
+import euphoricAdventures from './files/euphoric-adventures.png'
+import superawesome from './files/superawesome.svg'
 import arcadiaGroup from './files/arcadia-group.svg'
 import storydust from './files/storydust.svg'
 import entrepreneurFirst from './files/entrepreneur-first.svg'
@@ -11,6 +13,8 @@ import darkFlow from './files/dark-flow.png'
 import dsGameMaker from './files/ds-game-maker.svg'
 
 export default {
+  euphoricAdventures,
+  superawesome,
   arcadiaGroup,
   storydust,
   entrepreneurFirst,

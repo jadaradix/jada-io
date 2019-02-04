@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 const StyledHeader = styled.h1`
@@ -12,21 +12,21 @@ const StyledHeader = styled.h1`
   line-height: 3rem;
   letter-spacing: -2px;
   // background-color: green;
-`;
+`
 
 const Header = ({ children }) => (
   <StyledHeader>
     {children}
   </StyledHeader>
-);
+)
 
 Header.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node
   ])
-};
+}
 
-Header.defaultProps = {};
+Header.defaultProps = {}
 
-export default Header;
+export default Header

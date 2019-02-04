@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 const StyledBrick = styled.section`
@@ -60,13 +60,13 @@ const StyledBrick = styled.section`
   a + a {
     margin-top: 0.5rem;
   }
-`;
+`
 
 const Brick = ({ children, backgroundColor }) => (
-  <StyledBrick style={{backgroundColor}}>
+  <StyledBrick style={{ backgroundColor }}>
     {children}
   </StyledBrick>
-);
+)
 
 Brick.propTypes = {
   backgroundColor: PropTypes.string,
@@ -74,10 +74,10 @@ Brick.propTypes = {
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node
   ])
-};
+}
 
 Brick.defaultProps = {
   backgroundColor: 'rgb(255, 255, 255)'
-};
+}
 
-export default Brick;
+export default Brick
