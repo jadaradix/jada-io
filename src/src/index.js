@@ -36,27 +36,13 @@ class App extends PureComponent {
             </Engagement>
             <Engagement>
               <div class='details'>
-                <img src={icons.engagements.euphoricAdventures} alt='Euphoric Adventures' />
-                <p>
-                  <time dateTime='2018-03-01'>Jan 18</time>&ndash;
-                </p>
-              </div>
-              <div>
-                <h1>Founder <span>Euphoric Adventures</span></h1>
-                <p>
-                  Founded Euphoric Adventures, providing Smart Contract streaming technology for patent-free surround sound music.
-                </p>
-              </div>
-            </Engagement>
-            <Engagement>
-              <div class='details'>
                 <img src={icons.engagements.superawesome} alt='SuperAwesome' />
                 <p>
                   <time dateTime='2018-07-01'>Nov 18</time>&ndash;
                 </p>
               </div>
               <div>
-                <h1>Engineer <span>SuperAwesome</span></h1>
+                <h1>Senior Engineer <span>SuperAwesome</span></h1>
                 <p>
                   Working on the next generation of kid-safe advertising.
                 </p>
@@ -110,6 +96,20 @@ class App extends PureComponent {
                 </p>
                 <p>
                   &ldquo;EF is the best place to find a co-founder, build a company and access the world&rsquo;s best investors. We&rsquo;ve helped build over 140 technology companies collectively worth over $1bn.&rdquo;
+                </p>
+              </div>
+            </Engagement>
+            <Engagement>
+              <div class='details'>
+                <img src={icons.engagements.euphoricAdventures} alt='Euphoric Adventures' />
+                <p>
+                  <time dateTime='2018-03-01'>Jan 18</time>&ndash;
+                </p>
+              </div>
+              <div>
+                <h1>Founder <span>Euphoric Adventures</span></h1>
+                <p>
+                  Founded Euphoric Adventures, providing Smart Contract streaming technology for patent-free surround sound music.
                 </p>
               </div>
             </Engagement>
