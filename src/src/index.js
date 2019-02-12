@@ -1,6 +1,6 @@
-import React, { PureComponent } from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import React, { PureComponent } from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
 
 import icons from './icons'
 
@@ -9,12 +9,8 @@ import Engagement from './components/Engagement/Engagement'
 import Link from './components/Link/Link'
 import Header from './components/Header/Header'
 
-const getLink = (engagement) => {
-  return <a className='cv-link' href={`https://cv.jada.io/#engagement-${engagement}`}><img src={icons.generic.link} alt='' /></a>
-}
-
 class App extends PureComponent {
-  render() {
+  render () {
     return (
       <main>
 
@@ -23,31 +19,54 @@ class App extends PureComponent {
           <div>
             <Engagement backgroundColor='rgb(248, 248, 248)'>
               <div>
-                <img src={icons.generic.me} alt='James Garner' style={{borderRadius: '4px'}} />
+                <img src={icons.generic.me} alt='James Garner' style={{ borderRadius: '4px' }} />
                 <p>
-                  <time dateTime="2018-01-01">2018</time>&ndash;
+                  <time dateTime='2018-01-01'>2018</time>&ndash;
                 </p>
               </div>
               <div>
                 <p>
-                  Hi! I&rsquo;m a founder with deep skills in transforming engineering and talent.
+                  Hi. I&rsquo;m a founder with deep skills in transforming engineering and talent. My academic speciality is image and text search.
                 </p>
                 <p>
-                  From 2007&ndash;2011 thousands of teenagers learnt to code with my software DS Game Maker. As a CompSci grad I helped reverse engineer the PlayStation 4 before working for Sony R&amp;D at 22.
+                  From 2007&ndash;2011 thousands of teenagers learnt to code with my software DS Game Maker. As a CompSci grad I helped reverse engineer the PS4 before working for PlayStation R&amp;D at 22.
                 </p>
-                <p>
-                  My academic speciality is text and image semantics. I&rsquo;m available for consultancy work from &pound;600/day.
-                </p>
-                <Link href='https://cv.jada.io'>View my CV</Link>
                 <Link href='mailto:j@jada.io'>E-mail me</Link>
               </div>
             </Engagement>
             <Engagement>
-              {getLink('arcadia-group')}
+              <div class='details'>
+                <img src={icons.engagements.euphoricAdventures} alt='Euphoric Adventures' />
+                <p>
+                  <time dateTime='2018-03-01'>Jan 18</time>&ndash;
+                </p>
+              </div>
+              <div>
+                <h1>Founder <span>Euphoric Adventures</span></h1>
+                <p>
+                  Blah blah blah.
+                </p>
+              </div>
+            </Engagement>
+            <Engagement>
+              <div class='details'>
+                <img src={icons.engagements.superawesome} alt='SuperAwesome' />
+                <p>
+                  <time dateTime='2018-07-01'>Nov 18</time>&ndash;
+                </p>
+              </div>
+              <div>
+                <h1>Engineer <span>SuperAwesome</span></h1>
+                <p>
+                  Working on the next generation of kid-safe advertising.
+                </p>
+              </div>
+            </Engagement>
+            <Engagement>
               <div class='details'>
                 <img src={icons.engagements.arcadiaGroup} alt='Arcadia Group' />
                 <p>
-                  <time dateTime="2018-07-01">Jul 18</time>&ndash;<time dateTime="2018-10-01">Oct 18</time>
+                  <time dateTime='2018-07-01'>Jul 18</time>&ndash;<time dateTime='2018-10-01'>Oct 18</time>
                 </p>
               </div>
               <div>
@@ -61,29 +80,27 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('storydust')}
               <div class='details'>
                 <img src={icons.engagements.storydust} alt='Storydust' />
                 <p>
-                  <time dateTime="2018-03-01">Mar 18</time>&ndash;<time dateTime="2018-07-01">Jul 18</time>
+                  <time dateTime='2018-03-01'>Mar 18</time>&ndash;<time dateTime='2018-07-01'>Jul 18</time>
                 </p>
               </div>
               <div>
                 <h1>Co-founder <span>Storydust</span></h1>
                 <p>
-                  Co-founded Storydust which helped brands create &ldquo;authenticity at scale&rdquo; by letting them curate, license and use their customers&rsquo; Instagram content.
+                  Co-founded Storydust, helping brands create &ldquo;authenticity at scale&rdquo; by letting them curate, license and use their customers&rsquo; social media content.
                 </p>
                 <p>
-                  Enterprise grade stack deployed to GCP via Docker+CoreOS including RabbitMQ, Redis, Node.js microservices and React 16 SPA.
+                  Enterprise grade stack deployed to GCP including RabbitMQ, Redis, Node.js microservices and React 16 SPA.
                 </p>
               </div>
             </Engagement>
             <Engagement>
-              {getLink('storydust')}
               <div>
                 <img src={icons.engagements.entrepreneurFirst} alt='Entrepreneur First' />
                 <p>
-                  <time dateTime="2018-03-01">Mar 18</time>&ndash;<time dateTime="2018-07-01">Jul 18</time>
+                  <time dateTime='2018-03-01'>Mar 18</time>&ndash;<time dateTime='2018-07-01'>Jul 18</time>
                 </p>
               </div>
               <div>
@@ -97,11 +114,10 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('beamery')}
               <div>
                 <img src={icons.engagements.beamery} alt='Beamery' />
                 <p>
-                  <time dateTime="2017-02-01">Feb 17</time>&ndash;<time dateTime="2018-03-01">Mar 18</time>
+                  <time dateTime='2017-02-01'>Feb 17</time>&ndash;<time dateTime='2018-03-01'>Mar 18</time>
                 </p>
               </div>
               <div>
@@ -115,11 +131,10 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('playstation')}
               <div>
                 <img src={icons.engagements.playstation} alt='PlayStation' />
                 <p>
-                  <time dateTime="2016-03-01">Mar 16</time>&ndash;<time dateTime="2017-02-01">Feb 17</time>
+                  <time dateTime='2016-03-01'>Mar 16</time>&ndash;<time dateTime='2017-02-01'>Feb 17</time>
                 </p>
               </div>
               <div>
@@ -133,11 +148,10 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('epsilon-data')}
               <div>
                 <img src={icons.engagements.epsilonData} alt='Epsilon Data' />
                 <p>
-                  <time dateTime="2015-01-01">2015</time>&ndash;<time dateTime="2017-01-01">2017</time>
+                  <time dateTime='2015-01-01'>2015</time>&ndash;<time dateTime='2017-01-01'>2017</time>
                 </p>
               </div>
               <div>
@@ -154,11 +168,10 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('relative-insight')}
               <div>
                 <img src={icons.engagements.relativeInsight} alt='Relative Insight' />
                 <p>
-                  <time dateTime="2014-11-01">Nov 14</time>&ndash;<time dateTime="2015-09-01">Oct 15</time>
+                  <time dateTime='2014-11-01'>Nov 14</time>&ndash;<time dateTime='2015-09-01'>Oct 15</time>
                 </p>
               </div>
               <div>
@@ -172,11 +185,10 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('datacentred')}
               <div>
                 <img src={icons.engagements.datacentred} alt='DataCentred' />
                 <p>
-                  <time dateTime="2014-06-01">Jun 14</time>&ndash;<time dateTime="2014-09-01">Sep 14</time>
+                  <time dateTime='2014-06-01'>Jun 14</time>&ndash;<time dateTime='2014-09-01'>Sep 14</time>
                 </p>
               </div>
               <div>
@@ -190,11 +202,10 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('next-world-web')}
               <div>
                 <img src={icons.engagements.nextWorldWeb} alt='Next World Web' />
                 <p>
-                  <time dateTime="2013-06-01">Jun 13</time>&ndash;<time dateTime="2014-09-01">Sep 14</time>
+                  <time dateTime='2013-06-01'>Jun 13</time>&ndash;<time dateTime='2014-09-01'>Sep 14</time>
                 </p>
               </div>
               <div>
@@ -208,11 +219,10 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('dark-flow')}
               <div>
                 <img src={icons.engagements.darkFlow} alt='Dark Flow' />
                 <p>
-                  <time dateTime="2011-01-01">2011</time>&ndash;<time dateTime="2012-01-01">2012</time>
+                  <time dateTime='2011-01-01'>2011</time>&ndash;<time dateTime='2012-01-01'>2012</time>
                 </p>
               </div>
               <div>
@@ -226,11 +236,10 @@ class App extends PureComponent {
               </div>
             </Engagement>
             <Engagement>
-              {getLink('ds-game-maker')}
               <div>
                 <img src={icons.engagements.dsGameMaker} alt='DS Game Maker' />
                 <p>
-                  <time dateTime="2007-01-01">2007</time>&ndash;<time dateTime="2011-01-01">2011</time>
+                  <time dateTime='2007-01-01'>2007</time>&ndash;<time dateTime='2011-01-01'>2011</time>
                 </p>
               </div>
               <div>
@@ -294,21 +303,21 @@ class App extends PureComponent {
             </Brick>
             <Brick>
               <h1>What I cost</h1>
-              <p>I like to be upfront about cost. The key to happiness is aligned expectations.</p>
+              <p>The key to happiness is aligned expectations, so I like to be upfront about cost.</p>
               <ul>
-                <li>My day rate is &pound;600. There are no additional costs. I have my own equipment and I come to you, anywhere in the world.</li>
-                <li>Results are typically obvious within the first week but the most impactful engagements are around one month long.</li>
-                <li>I also offer a 10% discount on invoices paid early.</li>
+                <li>My day rate is &pound;500. I don&rsquo;t raise additional expenses. I have my own equipment and I come to you, anywhere in the world.</li>
+                <li>Results are typically obvious within the first week but the most impactful engagements are at least one month long.</li>
+                <li>I offer a 10% discount on invoices paid early.</li>
               </ul>
-              <p>If this seems expensive, remember the cost of recruitment agencies that provide little to no added value.</p>
-              <p>Hiring a senior engineer can attract an agency fee north of &pound;15,000 &mdash; or 3 weeks&rsquo; of my time teaching you how to resolve this dependency on agencies.</p>
+              <p>If this seems expensive, remember the cost of recruitment agencies that provide little added value.</p>
+              <p>Hiring a senior engineer can attract an agency fee north of &pound;15,000 &mdash; or 6 weeks&rsquo; of my time teaching you how to resolve this dependency on agencies.</p>
             </Brick>
           </div>
         </article>
 
       </main>
-    );
+    )
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'))
