@@ -44,7 +44,7 @@ class App extends PureComponent {
               <div>
                 <h1>Founder <span>Euphoric Adventures</span></h1>
                 <p>
-                  Blah blah blah.
+                  Founded Euphoric Adventures, providing Smart Contract streaming technology for patent-free surround sound music.
                 </p>
               </div>
             </Engagement>
