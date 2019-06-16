@@ -95,7 +95,7 @@ const Me = () => {
               Co-founded Storydust, helping brands create &ldquo;authenticity at scale&rdquo; by letting them curate, license and use their customers&rsquo; social media content.
             </p>
             <p>
-              Enterprise grade stack deployed to GCP, including node.js/Docker microservices, RabbitMQ, Redis and React.
+              Enterprise grade stack deployed to GCP, including Node.js/Docker microservices, RabbitMQ, Redis and React.
             </p>
           </div>
         </Engagement>
@@ -143,7 +143,7 @@ const Me = () => {
               Early engineering hire pre-Series A to Series B.
             </p>
             <p>
-              Mentored Founders &amp; Coders interns through a full agile project. Worked one-to-one with Facebook (US), Balfour Beatty, Grab (Singapore) and Greenhouse. Pair-lead development of candidate-facing Beamery Pages product (node.js, AngularJS).
+              Mentored Founders &amp; Coders interns through a full agile project. Worked one-to-one with Facebook (US), Balfour Beatty, Grab (Singapore) and Greenhouse. Pair-lead development of candidate-facing Beamery Pages product (Node.js, AngularJS).
             </p>
           </div>
         </Engagement>
