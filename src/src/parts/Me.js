@@ -23,7 +23,7 @@ const Me = () => {
               From 2007&ndash;2011 thousands of teenagers learnt to code with my software DS Game Maker. As a CompSci grad I then helped reverse engineer the PS4 before working for PlayStation R&amp;D at 22.
             </p>
             <p>
-              In 2018, I joined Entrepreneur First, kicking off my career in entrepreneurship and transforming engineering and talent. My strong engineering and management background gives me the privelege of helping deliver projects that change what the world looks like.
+              In 2018, I joined Entrepreneur First, kicking off my career in entrepreneurship and transforming engineering and talent. My strong engineering and management background gives me the privilege of helping deliver projects that change what the world looks like.
             </p>
             <p>
               My academic speciality is semantics, particularly text/image search and hyper-personalisation.
