@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 const StyledHeader = styled.h1`
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -8,15 +9,18 @@ const StyledHeader = styled.h1`
   line-height: 2rem;
   font-weight: 800;
   -webkit-font-smoothing: antialiased;
-  color: rgb(204, 204, 204);
   line-height: 3rem;
   letter-spacing: -2px;
   // background-color: green;
+  a {
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+  }
 `
 
 const Header = ({ children }) => (
   <StyledHeader>
-    {children}
+    <Link to='/'>{children}</Link>
   </StyledHeader>
 )
 

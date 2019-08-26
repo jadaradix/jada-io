@@ -12,25 +12,32 @@ html {
   font-size: 16px;
 } 
 
-main > article {
+article {
   margin: 0 auto 0 auto;
   max-width: 996px;
   padding: 2rem;
-  padding-top: 3rem;
 }
 
-main > article > h1 {
+main > h1 {
+  margin: 2rem auto 0 auto;
+  max-width: 996px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+article > h1 {
   margin-bottom: 3rem;
 }
 
-main > article > div {
+article {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
 }
 
-@media (min-width: 36em) {
-  main > article > div {
+@media (min-width: 800px) {
+  article {
     grid-template-columns: 2fr 2fr;
+    grid-gap: 2rem;
   }
 }
