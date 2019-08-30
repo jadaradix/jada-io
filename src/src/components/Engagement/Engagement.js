@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 const StyledEngagement = styled.section`
+  page-break-inside: avoid;
+  min-height: 8rem;
   padding: 1.5rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 400;

@@ -3,7 +3,6 @@ import React from 'react'
 import icons from '../icons'
 
 import Engagement from '../components/Engagement/Engagement'
-import Link from '../components/Link/Link'
 
 const Projects = () => {
   return (

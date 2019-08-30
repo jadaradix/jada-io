@@ -1,13 +1,21 @@
 import React from 'react'
+import styled from 'styled-components'
 
 import icons from '../icons'
-
 import Engagement from '../components/Engagement/Engagement'
 import Link from '../components/Link/Link'
 
+const StyledPage = styled.article`
+  @media print {
+    .e-mail-me-link {
+      display: none;
+    }
+  }
+`
+
 const Me = () => {
   return (
-    <article>
+    <StyledPage>
       <Engagement backgroundColor='rgb(248, 248, 248)'>
         <div>
           <img src={icons.generic.me} alt='James Garner' style={{ borderRadius: '4px' }} />
@@ -25,7 +33,9 @@ const Me = () => {
           <p>
             My academic speciality is semantics, particularly text/image search and hyper-personalisation.
           </p>
-          <Link href='mailto:j@jada.io'>E-mail me</Link>
+          <p className='e-mail-me-link'>
+            <Link href='mailto:j@jada.io'>E-mail me</Link>
+          </p>
         </div>
       </Engagement>
       <Engagement>
@@ -38,13 +48,13 @@ const Me = () => {
         <div>
           <h1>Engineering Lead <span style={{fontSize: '90%'}}>SuperAwesome</span></h1>
           <p>
-            Introducing engineering initiatives to establish a culture of measurement and entrepreneurship.
+            Creating a culture of entrepreneurship and measurement.
           </p>
           <p>
-            Line management (aligning on company initiatives, career mentorship through personal development plans).
+            Working on teams&rsquo; operational strategy (process, knowledge sharing, cross-team collaboration).
           </p>
           <p>
-            Continuous work on team&rsquo;s operational strategy (process, knowledge sharing, cross-team collaboration).
+            Line management (aligning on company initiatives and career mentorship through personal development plans).
           </p>
         </div>
       </Engagement>
@@ -266,7 +276,7 @@ const Me = () => {
           </p>
         </div>
       </Engagement>
-    </article>
+    </StyledPage>
   )
 }
 export default Me
