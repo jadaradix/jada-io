@@ -4,7 +4,7 @@ import icons from '../icons'
 
 import Engagement from '../components/Engagement/Engagement'
 
-const Projects = () => {
+const Startups = () => {
   return (
     <article>
       <Engagement backgroundColor='rgb(248, 248, 248)'>
@@ -16,11 +16,11 @@ const Projects = () => {
         </div>
         <div>
           <p>
-            Projects.
+            Startups.
           </p>
         </div>
       </Engagement>
     </article>
   )
 }
-export default Projects
+export default Startups
