@@ -6,12 +6,11 @@ import { Link } from 'react-router-dom'
 const StyledHeader = styled.header`
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: rgb(248, 248, 248);
   border-radius: 8px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
   .logo {
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-bottom: 0.25rem;
     margin-left: 1rem;
     padding-left: 0.5rem;
@@ -22,7 +21,7 @@ const StyledHeader = styled.header`
     line-height: 3rem;
     letter-spacing: -2px;
     text-decoration: none;
-    color: rgb(204, 204, 204);
+    color: rgb(96,96,96);
   }
   nav {
     height: 3.5rem;
@@ -57,6 +56,7 @@ const Header = ({ children }) => (
     <nav>
       <ul>
         <li><Link to='/'>Home</Link></li>
+        <li><Link to='/startups'>Startups</Link></li>
         <li><a href='https://cv.jada.io'>CV</a></li>
       </ul>
     </nav>

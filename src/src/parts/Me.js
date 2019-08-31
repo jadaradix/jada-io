@@ -162,9 +162,9 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1>R&amp;D Engineer <span>PlayStation</span></h1>
+          <h1>Engineer <span>PlayStation</span></h1>
           <p>
-            Engineering on PlayStation’s best-in-class developer platform between London and San Mateo, CA.
+            R&amp;D. Engineering on PlayStation’s best-in-class developer platform between London and San Mateo, CA.
           </p>
           <p>
             Leadership on application&rsquo;s frontend strategy (build, dependencies, migration to AngularJS). Delivered AngularJS training to London and Bay Area senior engineers.
