@@ -11,6 +11,14 @@ const StyledPage = styled.article`
       display: none;
     }
   }
+  @media (min-width: 800px) {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 2rem;
+    > * + * {
+      margin-top: 0;
+    }
+  }
 `
 
 const Me = () => {
@@ -18,9 +26,9 @@ const Me = () => {
     <StyledPage>
       <Engagement backgroundColor='rgb(248, 248, 248)'>
         <div>
-          <img src={icons.generic.me} alt='James Garner' style={{ borderRadius: '4px' }} />
+          <img src={icons.generic.me} alt='James Garner' />
           <p>
-            <time dateTime='2018-01-01'>2018</time>&ndash;
+            <time dateTime='1993-01-01'>1993</time>&ndash;
           </p>
         </div>
         <div>
@@ -28,13 +36,15 @@ const Me = () => {
             From 2007&ndash;2011 thousands of teenagers learnt to code with my software DS Game Maker. As a CompSci grad I then helped reverse engineer the PS4 before working for PlayStation R&amp;D at 22.
           </p>
           <p>
-            In 2018, I joined Entrepreneur First, kicking off my career in entrepreneurship and transforming engineering and talent. My strong engineering and management background gives me the privilege of helping deliver projects that change what the world looks like.
+            In 2018, I joined Entrepreneur First, kicking off my career in entrepreneurship and transforming engineering and talent. My strong engineering and management background gives me the privilege of helping deliver projects that change the world.
           </p>
           <p>
             My academic speciality is semantics, particularly text/image search and hyper-personalisation.
           </p>
           <p className='e-mail-me-link'>
-            <Link href='mailto:j@jada.io'>E-mail me</Link>
+            <Link href='mailto:j@jada.io'>j@jada.io</Link>
+            &nbsp;&nbsp;&nbsp;
+            <Link href='https://twitter.com/jadaradix'>@jadaradix</Link>
           </p>
         </div>
       </Engagement>
@@ -123,20 +133,6 @@ const Me = () => {
           </p>
         </div>
       </Engagement>
-      {/* <Engagement>
-        <div className='details'>
-          <img src={icons.engagements.euphoricAdventures} alt='Euphoric Adventures' />
-          <p>
-            <time dateTime='2018-03-01'>Jan 18</time>&ndash;
-          </p>
-        </div>
-        <div>
-          <h1>Founder <span>Euphoric Adventures</span></h1>
-          <p>
-            Founded Euphoric Adventures, providing Smart Contract streaming technology for patent-free surround sound music.
-          </p>
-        </div>
-      </Engagement> */}
       <Engagement>
         <div>
           <img src={icons.engagements.beamery} alt='Beamery' />

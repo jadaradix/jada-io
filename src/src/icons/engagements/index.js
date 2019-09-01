@@ -11,6 +11,7 @@ import datacentred from './files/datacentred.png'
 import nextWorldWeb from './files/next-world-web.png'
 import darkFlow from './files/dark-flow.png'
 import dsGameMaker from './files/ds-game-maker.svg'
+import anonml from './files/anonml.svg'
 
 export default {
   euphoricAdventures,
@@ -25,5 +26,6 @@ export default {
   datacentred,
   nextWorldWeb,
   darkFlow,
-  dsGameMaker
+  dsGameMaker,
+  anonml
 }

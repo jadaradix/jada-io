@@ -35,15 +35,26 @@ const StyledEngagement = styled.section`
     width: 96px;
     background-color: white;
     border-radius: 4px;
+    > a, img {
+      display: block;
+      width: 100%;
+      height: 96px;
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        border-radius: 4px;
+      }
+    }
     > img {
       display: block;
       width: 100%;
       height: 96px;
       border: 0;
-      border-top-left-radius: 4px;
-      border-top-right-radius: 4px;
+      border-radius: 4px;
     }
-    > p {
+    p {
       text-align: center;
       color: rgb(204, 204, 204);
     }
