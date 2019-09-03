@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Helmet } from 'react-helmet'
 
 import icons from '../icons'
 import Engagement from '../components/Engagement/Engagement'
@@ -24,6 +25,9 @@ const StyledPage = styled.article`
 const Me = () => {
   return (
     <StyledPage>
+      <Helmet>
+        <title>James Garner (jadaradix)</title>
+      </Helmet>
       <Engagement backgroundColor='rgb(248, 248, 248)'>
         <div>
           <img src={icons.generic.me} alt='James Garner' />
