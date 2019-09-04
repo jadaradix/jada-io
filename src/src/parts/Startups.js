@@ -11,7 +11,7 @@ const Startups = () => {
   return (
     <StyledPage>
       <Helmet>
-        <title>James Garner (jadaradix)</title>
+        <title>Startups - James Garner (jadaradix)</title>
       </Helmet>
       <article>
         <Engagement>
