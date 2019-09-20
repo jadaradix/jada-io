@@ -5,7 +5,11 @@ import { Helmet } from 'react-helmet'
 import icons from '../icons'
 import Engagement from '../components/Engagement/Engagement'
 
-const StyledPage = styled.article``
+const StyledPage = styled.article`
+  section + section {
+    margin-top: 2rem;
+  }
+`
 
 const Startups = () => {
   return (
@@ -14,6 +18,17 @@ const Startups = () => {
         <title>Startups - James Garner (jadaradix)</title>
       </Helmet>
       <article>
+        {/* <Engagement>
+          <div className='details'>
+          </div>
+          <div>
+            <h1>Onebox <span>Founder</span></h1>
+            <p>
+              <strong>Coming soon.</strong>
+            </p>
+          </div>
+        </Engagement> */}
+
         <Engagement>
           <div className='details'>
             <a href='https://anonml.co'>
@@ -38,7 +53,7 @@ const Startups = () => {
               Principled machine learning will be the competitive edge of the world's most successful companies, not only because the outcomes will be fairer, but because they will be better and make more money.
             </p>
             <p>
-              This involves two key inventive steps: <strong>Intelligent Anonymization</strong> (protecting people and improving outcomes) and <strong>Transparent Learning</strong> (the technology of consent).
+              This involves two key inventive steps: Intelligent Anonymization (protecting people and improving outcomes) and Transparent Learning (the technology of consent).
             </p>
           </div>
         </Engagement>
