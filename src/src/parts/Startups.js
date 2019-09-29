@@ -18,16 +18,25 @@ const Startups = () => {
         <title>Startups - James Garner (jadaradix)</title>
       </Helmet>
       <article>
-        {/* <Engagement>
+        <Engagement>
           <div className='details'>
+            <a href='https://stickyadventur.es'>
+              <img src={icons.engagements.sticky} alt='Sticky' />
+            </a>
           </div>
           <div>
-            <h1>Onebox <span>Founder</span></h1>
+            <h1>Sticky <span>Founder</span></h1>
             <p>
-              <strong>Coming soon.</strong>
+              <strong>Sticky is the world&rsquo;s physical application layer.</strong>
+            </p>
+            <p>
+              Sticky connects physical things with digital apps and workflows, boosting consumer loyalty, convenience and interaction.
+            </p>
+            <p>
+              This is the Internet of everything. Every thing.
             </p>
           </div>
-        </Engagement> */}
+        </Engagement>
 
         <Engagement>
           <div className='details'>

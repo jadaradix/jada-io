@@ -12,6 +12,7 @@ import nextWorldWeb from './files/next-world-web.png'
 import darkFlow from './files/dark-flow.png'
 import dsGameMaker from './files/ds-game-maker.svg'
 import anonml from './files/anonml.svg'
+import sticky from './files/sticky.svg'
 
 export default {
   euphoricAdventures,
@@ -27,5 +28,6 @@ export default {
   nextWorldWeb,
   darkFlow,
   dsGameMaker,
-  anonml
+  anonml,
+  sticky
 }
