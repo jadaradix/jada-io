@@ -27,10 +27,10 @@ const Startups = () => {
           <div>
             <h1>Sticky <span>Founder</span></h1>
             <p>
-              <strong>Sticky is the world&rsquo;s physical application layer.</strong>
+              <strong>We are the world&rsquo;s physical application layer. Connect physical things with digital apps, boosting consumer loyalty, convenience and interaction.</strong>
             </p>
             <p>
-              Sticky connects physical things with digital apps and workflows, boosting consumer loyalty, convenience and interaction.
+              Our mission is to create the "Internet of everything". We're doing this by making trusted, cost-effective contactless stickers which allow people to buy products and interact with real things, like parcels or ceramic mugs.
             </p>
             <p>
               This is the Internet of everything. Every thing.
