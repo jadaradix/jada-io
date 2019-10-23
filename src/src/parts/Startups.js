@@ -20,7 +20,7 @@ const Startups = () => {
       <article>
         <Engagement>
           <div className='details'>
-            <a href='https://stickyadventur.es'>
+            <a href='https://sticky.to'>
               <img src={icons.engagements.sticky} alt='Sticky' />
             </a>
           </div>
