@@ -7,6 +7,9 @@ import Engagement from '../components/Engagement/Engagement'
 import Link from '../components/Link/Link'
 
 const StyledPage = styled.article`
+  .e-mail-me-link a {
+    font-size: 1.2rem;
+  }
   @media print {
     .e-mail-me-link {
       display: none;
@@ -37,13 +40,16 @@ const Me = () => {
         </div>
         <div>
           <p>
+            I'm a deep tech founder with a career spanning Entrepreneur First (2018), PlayStation (2017) and my own companies since 2008. I care about interfaces, hyper-personalisation, semantics and building the future.
+          </p>
+          <p>
             From 2007&ndash;2011 thousands of teenagers learnt to code with my software DS Game Maker. As a CompSci grad I then helped reverse engineer the PS4 before working for PlayStation R&amp;D at 22.
           </p>
           <p>
-            In 2018, I joined Entrepreneur First, kicking off my career in entrepreneurship and transforming engineering and talent. My strong engineering and management background gives me the privilege of helping deliver projects that change the world.
+            With a strong engineering and management background, I joined Entrepreneur First in 2018, kicking off my formal career in entrepreneurship.
           </p>
           <p>
-            My academic speciality is semantics, particularly text/image search and hyper-personalisation.
+            In 2019, I founded <Link href='https://sticky.to'>Sticky</Link>, the world's physical application layer.
           </p>
           <p className='e-mail-me-link'>
             <Link href='mailto:j@jada.io'>j@jada.io</Link>
@@ -56,33 +62,24 @@ const Me = () => {
         <div className='details'>
           <img src={icons.engagements.superawesome} alt='SuperAwesome' />
           <p>
-            <time dateTime='2019-04-01'>Apr 19</time>&ndash;
+            <time dateTime='2018-11-01'>Nov 18</time>&ndash;
           </p>
         </div>
         <div>
           <h1>Engineering Lead <span style={{fontSize: '90%'}}>SuperAwesome</span></h1>
+          <p><strong>Engineering Lead (<time dateTime='2019-04-01'>Apr 18</time>&ndash;)</strong></p>
           <p>
-            Creating a culture of entrepreneurship and measurement.
+            Creating a culture of entrepreneurship.
           </p>
           <p>
             Working on teams&rsquo; operational strategy (process, knowledge sharing, cross-team collaboration).
           </p>
           <p>
-            Line management (aligning on company initiatives and career mentorship through personal development plans).
+            Line management (aligning on company initiatives and career mentorship through personal development).
           </p>
-        </div>
-      </Engagement>
-      <Engagement>
-        <div className='details'>
-          <img src={icons.engagements.superawesome} alt='SuperAwesome' />
+          <p><strong>Senior Engineer</strong></p>
           <p>
-          <time dateTime='2018-11-01'>Nov 18</time>&ndash;<time dateTime='2019-04-01'>Apr 19</time>
-          </p>
-        </div>
-        <div>
-          <h1>Senior Engineer <span>SuperAwesome</span></h1>
-          <p>
-            Delivering the next generation of PII-free advertising, taking the project from a proof-of-concept to a market-ready product with Enterprise customers. Significant engineering achievements including introducing React and Jest, 100% test coverage and distributed architecture reaching Kubernetes scaling limits.
+            Delivering the next generation of PII-free advertising, taking the project from a proof-of-concept to a market-ready product with an Enterprise customer. Achievements including introducing React and Jest, 100% test coverage and distributed architecture reaching Kubernetes scaling limits.
           </p>
         </div>
       </Engagement>

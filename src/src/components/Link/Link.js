@@ -6,7 +6,6 @@ const StyledLink = styled.a`
   padding-bottom: 2px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 800;
-  font-size: 1.2rem;
   letter-spacing: 0.1px;
   color: rgb(255, 45, 85);
 `
