@@ -39,7 +39,7 @@ const Startups = () => {
               These products are so transformational, we call them "experiences".
             </p>
             <p>
-              Connecting apps and workflows with physical things boosts consumer loyalty, convenience and interaction, and we're hyped to be at the forefront of experiences over products and the interaction paradigms of the future.
+              Connecting apps and workflows with things and people boosts consumer loyalty, convenience and interaction, and we're hyped to be at the forefront of experiences over products and the interaction paradigms of the future.
             </p>
           </div>
         </Engagement>
