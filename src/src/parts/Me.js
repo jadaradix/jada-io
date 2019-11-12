@@ -40,7 +40,7 @@ const Me = () => {
         </div>
         <div>
           <p>
-            I'm a deep tech founder with a career spanning Entrepreneur First (2018), PlayStation (2017) and my own companies since 2008. I care about interfaces, hyper-personalisation, semantics and building the future.
+            I'm a deep tech founder with a career spanning Entrepreneur First (2018), PlayStation (2017) and my own companies since 2007. I care about interfaces, hyper-personalisation, semantics and building the future.
           </p>
           <p>
             From 2007&ndash;2011 thousands of teenagers learnt to code with my software DS Game Maker. As a CompSci grad I then helped reverse engineer the PS4 before working for PlayStation R&amp;D at 22.
@@ -60,6 +60,32 @@ const Me = () => {
       </Engagement>
       <Engagement>
         <div className='details'>
+          <img src={icons.engagements.sticky} alt='Sticky' />
+          <p>
+            <time dateTime='2019-09-01'>Sep 19</time>&ndash;
+          </p>
+        </div>
+        <div>
+          <h1>Founder <span>Sticky</span></h1>
+          <p>
+            <strong>We are the world's physical application layer.</strong>
+          </p>
+          <p>
+            Most companies can create great digital products. Some companies can create great physical products. But hardly any companies create products that are both. Sticky makes it possible.
+          </p>
+          <p>
+            We remove the cost of IoT hardware by using the IoT hardware in all of our pockets - our smartphones and smart watches. We use their contactless technology to allow companies to create a new kind of product that is both digital and physical.
+          </p>
+          <p>
+            These products are so transformational, we call them "experiences".
+          </p>
+          <p>
+            Connecting apps and workflows with physical things with boosts consumer loyalty, convenience and interaction, and we're hyped to be at the forefront of experiences over products and the interaction paradigms of the future.
+          </p>
+        </div>
+      </Engagement>
+      <Engagement>
+        <div className='details'>
           <img src={icons.engagements.superawesome} alt='SuperAwesome' />
           <p>
             <time dateTime='2018-11-01'>Nov 18</time>&ndash;
@@ -67,7 +93,7 @@ const Me = () => {
         </div>
         <div>
           <h1>Engineering Lead <span style={{fontSize: '90%'}}>SuperAwesome</span></h1>
-          <p><strong>Engineering Lead (<time dateTime='2019-04-01'>Apr 18</time>&ndash;)</strong></p>
+          <p><strong>Engineering Lead (<time dateTime='2019-04-01'>Apr 19</time>&ndash;)</strong></p>
           <p>
             Creating a culture of entrepreneurship.
           </p>
@@ -77,7 +103,7 @@ const Me = () => {
           <p>
             Line management (aligning on company initiatives and career mentorship through personal development).
           </p>
-          <p><strong>Senior Engineer</strong></p>
+          <p><strong>Senior Engineer (<time dateTime='2018-11-01'>Nov 18</time>&ndash;<time dateTime='2019-04-01'>Apr 19</time>)</strong></p>
           <p>
             Delivering the next generation of PII-free advertising, taking the project from a proof-of-concept to a market-ready product with an Enterprise customer. Achievements including introducing React and Jest, 100% test coverage and distributed architecture reaching Kubernetes scaling limits.
           </p>
