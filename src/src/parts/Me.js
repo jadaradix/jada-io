@@ -60,40 +60,41 @@ const Me = () => {
       </Engagement>
       <Engagement>
         <div className='details'>
-          <img src={icons.engagements.sticky} alt='Sticky' />
+          <a href='https://sticky.to'>
+            <img src={icons.engagements.sticky} alt='Sticky' />
+          </a>
           <p>
-            <time dateTime='2019-09-01'>Sep 19</time>&ndash;
+            <time dateTime='2019-09-01'>Oct 19</time>&ndash;
           </p>
         </div>
         <div>
-          <h1>Founder <span>Sticky</span></h1>
+          <h1>Co-founder <span>Sticky</span></h1>
           <p>
-            <strong>We are the world's physical application layer.</strong>
+            <strong>Sticky is reality's application layer.</strong>
           </p>
           <p>
-            Most companies can create great digital products. Some companies can create great physical products. But hardly any companies create products that are both. Sticky makes it possible.
+            Most companies can create great digital products, and some companies can create great physical products, but hardly any companies create products that are both.
           </p>
           <p>
-            We remove the cost of IoT hardware by using the IoT hardware in all of our pockets - our smartphones and smart watches. We use their contactless technology to allow companies to create a new kind of product that is both digital and physical.
+            To solve this we created Sticky, reality's application layer.
           </p>
           <p>
-            These products are so transformational, we call them "experiences".
-          </p>
-          <p>
-            Connecting apps and workflows with things and people boosts consumer loyalty, convenience and interaction, and we're hyped to be at the forefront of experiences over products and the interaction paradigms of the future.
+            Boost consumer loyalty, convenience and interaction by connecting apps and workflows with things and people to make a new kind of application that's both digital and physical.
           </p>
         </div>
       </Engagement>
       <Engagement>
         <div className='details'>
-          <img src={icons.engagements.superawesome} alt='SuperAwesome' />
+          <a href='https://www.superawesome.com/'>
+            <img src={icons.engagements.superawesome} alt='SuperAwesome' />
+          </a>
           <p>
-            <time dateTime='2018-11-01'>Nov 18</time>&ndash;
+            <time dateTime='2018-11-01'>Nov 18</time>&ndash;<time dateTime='2020-01-01'>Jan 20</time>
           </p>
         </div>
         <div>
           <h1>Engineering Lead <span style={{fontSize: '90%'}}>SuperAwesome</span></h1>
-          <p><strong>Engineering Lead (<time dateTime='2019-04-01'>Apr 19</time>&ndash;)</strong></p>
+          <p><strong>Engineering Lead (<time dateTime='2019-04-01'>Apr 19</time>&ndash;<time dateTime='2020-01-01'>Jan 20</time>)</strong></p>
           <p>
             Creating a culture of entrepreneurship.
           </p>

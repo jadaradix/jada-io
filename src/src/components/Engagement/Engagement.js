@@ -35,7 +35,7 @@ const StyledEngagement = styled.section`
     width: 96px;
     background-color: white;
     border-radius: 4px;
-    > a, img {
+    > a {
       display: block;
       width: 100%;
       height: 96px;
@@ -58,7 +58,7 @@ const StyledEngagement = styled.section`
       text-align: center;
       color: rgb(204, 204, 204);
     }
-    img + p {
+    a + p, img + p {
       margin-top: 0.5rem;
       font-size: 0.8rem;
       // background-color: green;
