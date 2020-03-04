@@ -5,10 +5,10 @@ import Header from '../components/Header/Header'
 const Talent = () => {
   return (
     <article>
-      <Header>Talent transformation</Header>
+      <Header />
       <div>
         <Brick backgroundColor='rgb(248, 248, 248)'>
-          <h1>Who I am</h1>
+          <h1><strong>Who I am</strong></h1>
           <p>
             I&rsquo;m James and I help companies transform their talent function.
           </p>
@@ -23,7 +23,7 @@ const Talent = () => {
           </p>
         </Brick>
         <Brick>
-          <h1>What I do</h1>
+          <h1><strong>What I do</strong></h1>
           <p>
             Do you struggle to attract the best talent in a candidates&rsquo; market? If these things sound familiar, you&rsquo;re not alone:
           </p>
@@ -38,7 +38,7 @@ const Talent = () => {
           </p>
         </Brick>
         <Brick>
-          <h1>What you get</h1>
+          <h1><strong>What you get</strong></h1>
           <p>
             I implement a world class talent work flow which treats candidates like customers.
           </p>
@@ -51,7 +51,7 @@ const Talent = () => {
           </ul>
         </Brick>
         <Brick>
-          <h1>What I cost</h1>
+          <h1><strong>What I cost</strong></h1>
           <p>The key to happiness is aligned expectations, so I like to be upfront about cost.</p>
           <ul>
             <li>My day rate is &pound;600. There are no additional costs. I have my own equipment and I come to you, anywhere in the world.</li>

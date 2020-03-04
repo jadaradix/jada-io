@@ -1,9 +1,16 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter.var.woff2') format('woff2');
+}
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 400;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
   vertical-align: baseline;
   line-height: 1;
   -webkit-print-color-adjust: exact;
@@ -13,8 +20,9 @@ html {
   font-size: 16px;
 }
 
-strong {
-  font-weight: 600;
+strong, strong > span {
+  font-weight: 550;
+  font-variation-settings: 'wght' 650, 'slnt' 0;
 }
 
 main {

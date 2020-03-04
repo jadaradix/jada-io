@@ -6,11 +6,6 @@ const StyledEngagement = styled.section`
   page-break-inside: avoid;
   min-height: 8rem;
   padding: 1.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-weight: 400;
-  text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  letter-spacing: 0.1px;
   border-radius: 8px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
   position: relative;
@@ -72,12 +67,11 @@ const StyledEngagement = styled.section`
     h1 {
       font-size: 1.25rem;
       line-height: 1.25rem;
-      font-weight: 800;
       color: rgb(96, 96, 96);
       letter-spacing: -0.5px;
       margin-top: 0.75rem;
       // background-color: green;
-      > span {
+      > strong > span {
         margin-left: 4px;
         color: rgb(204, 204, 204);
       }
@@ -85,7 +79,7 @@ const StyledEngagement = styled.section`
     p {
       font-size: 0.8rem;
       line-height: 1rem;
-      text-align: justify;
+      letter-spacing: 0.2px;
       color: rgb(48, 48, 48);
       // background-color: red;
     }

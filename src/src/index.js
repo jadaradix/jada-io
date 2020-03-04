@@ -11,7 +11,7 @@ const App = () => {
   return (
     <main>
       <Router>
-        <Header>James Garner</Header>
+        <Header />
         <Switch>
           <Route path='/' exact strict component={Me} />
           <Route path='/startups' exact strict component={Startups} />

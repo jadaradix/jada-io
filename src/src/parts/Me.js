@@ -52,9 +52,9 @@ const Me = () => {
             In 2019, I founded <Link href='https://sticky.to'>Sticky</Link>, the world's physical application layer.
           </p>
           <p className='e-mail-me-link'>
-            <Link href='mailto:j@jada.io'>j@jada.io</Link>
+            <Link href='mailto:j@jada.io'><strong>j@jada.io</strong></Link>
             &nbsp;&nbsp;&nbsp;
-            <Link href='https://twitter.com/jadaradix'>@jadaradix</Link>
+            <Link href='https://twitter.com/jadaradix'><strong>@jadaradix</strong></Link>
           </p>
         </div>
       </Engagement>
@@ -68,7 +68,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1>Co-founder <span>Sticky</span></h1>
+          <h1><strong>Co-founder<span>Sticky</span></strong></h1>
           <p>
             <strong>Sticky is reality's application layer.</strong>
           </p>
@@ -93,7 +93,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1>Engineering Lead <span style={{fontSize: '90%'}}>SuperAwesome</span></h1>
+          <h1><strong>Engineering Lead<span style={{fontSize: '90%'}}>SuperAwesome</span></strong></h1>
           <p><strong>Engineering Lead (<time dateTime='2019-04-01'>Apr 19</time>&ndash;<time dateTime='2020-01-01'>Jan 20</time>)</strong></p>
           <p>
             Creating a culture of entrepreneurship.
@@ -118,7 +118,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1>Senior Consultant <span>Arcadia Group</span></h1>
+          <h1><strong>Senior Consultant<span>Arcadia Group</span></strong></h1>
           <p>
             Contract. On-site via 101 Ways helping transform engineering and replatform to React+Node.js.
           </p>
@@ -135,7 +135,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1>Co-founder <span>Storydust</span></h1>
+          <h1><strong>Co-founder<span>Storydust</span></strong></h1>
           <p>
             Co-founded Storydust, helping brands create &ldquo;authenticity at scale&rdquo; by letting them curate, license and use their customers&rsquo; social media content.
           </p>
@@ -152,7 +152,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1>Alumnus <span>Entrepreneur First</span></h1>
+          <h1><strong>Alumnus<span>Entrepreneur First</span></strong></h1>
           <p>
             Member of EF&rsquo;s 10<sup>th</sup> cohort in London (EF10).
           </p>
@@ -169,7 +169,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1>Engineer <span>Beamery</span></h1>
+          <h1><strong>Engineer<span>Beamery</span></strong></h1>
           <p>
             Early engineering hire pre-Series A to Series B.
           </p>
@@ -186,7 +186,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1>Engineer <span>PlayStation</span></h1>
+          <h1><strong>Engineer<span>PlayStation</span></strong></h1>
           <p>
             R&amp;D. Engineering on PlayStation’s best-in-class developer platform between London and San Mateo, CA.
           </p>
@@ -203,7 +203,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1>Co-founder <span>Epsilon Data</span></h1>
+          <h1><strong>Co-founder<span>Epsilon Data</span></strong></h1>
           <p>
             Epsilon Data was a profitable automated marketing startup.
           </p>
@@ -223,7 +223,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1>Data Scientist <span>Relative Insight</span></h1>
+          <h1><strong>Data Scientist<span>Relative Insight</span></strong></h1>
           <p>
             Developed Python web scrapers for high profile brands including Oxford University and Smirnoff.
           </p>
@@ -240,7 +240,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1>Developer<span>DataCentred</span></h1>
+          <h1><strong>Developer<span>DataCentred</span></strong></h1>
           <p>
             Co-developed customer facing support app in Ruby on Rails and AngularJS within 3 months, reflecting JIRA activity in real-time.
           </p>
@@ -257,7 +257,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1>Developer<span>Next World Web</span></h1>
+          <h1><strong>Developer<span>Next World Web</span></strong></h1>
           <p>
             Moved large legacy ecommerce systems to CakePHP, CS-Cart and WordPress.
           </p>
@@ -274,7 +274,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1>Developer<span>Dark Flow</span></h1>
+          <h1><strong>Developer<span>Dark Flow</span></strong></h1>
           <p>
             Lead a team of 5 developing a &ldquo;true cross platform game maker&rdquo;.
           </p>
@@ -291,7 +291,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1>Founder<span>DS Game Maker</span></h1>
+          <h1><strong>Founder<span>DS Game Maker</span></strong></h1>
           <p>
             Created famous Nintendo DS homebrew game making software. Sold over 1,500 serial codes and 350 physical &lsquo;Homebrew Kits&rsquo; by age 17.
           </p>

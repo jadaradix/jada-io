@@ -25,7 +25,7 @@ const Startups = () => {
             </a>
           </div>
           <div>
-            <h1>Sticky <span>Co-founder</span></h1>
+            <h1><strong>Sticky<span>Co-founder</span></strong></h1>
             <p>
               <strong>Sticky is reality's application layer.</strong>
             </p>
@@ -48,7 +48,7 @@ const Startups = () => {
             </a>
           </div>
           <div>
-            <h1>Anonml <span>Founder</span></h1>
+            <h1><strong>Anonml<span>Founder</span></strong></h1>
             <p>
               <strong>We are thought leaders in principled machine learning. We help companies achieve better ML outcomes without personal data.</strong>
             </p>
@@ -77,7 +77,7 @@ const Startups = () => {
             </a>
           </div>
           <div>
-            <h1>Euphoric Adventures <span>Founder</span></h1>
+            <h1><strong>Euphoric Adventures<span>Founder</span></strong></h1>
             <p>
               <strong>We define the intersection of Smart Contracts and the world&rsquo;s most euphoric entertainment.</strong>
             </p>

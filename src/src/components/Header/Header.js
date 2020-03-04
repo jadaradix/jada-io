@@ -4,8 +4,6 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 const StyledHeader = styled.header`
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  -webkit-font-smoothing: antialiased;
   border-radius: 8px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
   .logo {
@@ -17,7 +15,6 @@ const StyledHeader = styled.header`
     padding-right: 0.5rem;
     font-size: 3rem;
     line-height: 2rem;
-    font-weight: 800;
     line-height: 3rem;
     letter-spacing: -2px;
     text-decoration: none;
@@ -52,7 +49,9 @@ const StyledHeader = styled.header`
 
 const Header = ({ children }) => (
   <StyledHeader>
-    <Link className='logo' to='/'>{children}</Link>
+    <Link className='logo' to='/'>
+      <strong>James Garner</strong>
+    </Link>
     <nav>
       <ul>
         <li><Link to='/'>Home</Link></li>
