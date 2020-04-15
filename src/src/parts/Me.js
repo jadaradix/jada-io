@@ -43,13 +43,10 @@ const Me = () => {
         </div>
         <div>
           <p>
-            I'm a deep tech founder with a career spanning Entrepreneur First (2018), PlayStation (2017) and my own companies since 2007. I care about ubiquitous computing, hyper-personalisation, semantics and building the future.
+            I'm a deep tech founder and I care about ubiquitous computing, hyper-personalisation, semantics and building the future.
           </p>
           <p>
-            From 2007&ndash;2011 thousands of teenagers learnt to code with my software DS Game Maker. As a CompSci grad I then helped reverse engineer the PS4 before working for PlayStation R&amp;D at 22.
-          </p>
-          <p>
-            With a strong engineering and management background, I joined Entrepreneur First in 2018, kicking off my formal career in entrepreneurship.
+            From 2007–2011 thousands of teenagers learnt to code with my software DS Game Maker. After working for PlayStation R&D and Beamery, I joined Entrepreneur First's 10th cohort, kicking off my career in entrepreneurship at SuperAwesome and beyond.
           </p>
           <p>
             In 2019, I founded <Link href='https://sticky.to'>Sticky</Link>, the world's physical application layer.
