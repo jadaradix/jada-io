@@ -7,8 +7,11 @@ import Engagement from '../components/Engagement/Engagement'
 import Link from '../components/Link/Link'
 
 const StyledPage = styled.article`
-  .e-mail-me-link a {
-    font-size: 1.2rem;
+  .e-mail-me-link {
+    margin-top: 1rem !important;
+    a {
+      font-size: 1.2rem;
+    }
   }
   @media print {
     .e-mail-me-link {
@@ -40,7 +43,7 @@ const Me = () => {
         </div>
         <div>
           <p>
-            I'm a deep tech founder with a career spanning Entrepreneur First (2018), PlayStation (2017) and my own companies since 2007. I care about interfaces, hyper-personalisation, semantics and building the future.
+            I'm a deep tech founder with a career spanning Entrepreneur First (2018), PlayStation (2017) and my own companies since 2007. I care about ubiquitous computing, hyper-personalisation, semantics and building the future.
           </p>
           <p>
             From 2007&ndash;2011 thousands of teenagers learnt to code with my software DS Game Maker. As a CompSci grad I then helped reverse engineer the PS4 before working for PlayStation R&amp;D at 22.
@@ -53,7 +56,11 @@ const Me = () => {
           </p>
           <p className='e-mail-me-link'>
             <Link href='mailto:j@jada.io'><strong>j@jada.io</strong></Link>
-            &nbsp;&nbsp;&nbsp;
+          </p>
+          <p className='e-mail-me-link'>
+            <Link href='tel:+447903576776'><strong>+44 79035 76776</strong></Link>
+          </p>
+          <p className='e-mail-me-link'>
             <Link href='https://twitter.com/jadaradix'><strong>@jadaradix</strong></Link>
           </p>
         </div>
@@ -93,7 +100,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1><strong>Engineering Lead<span style={{fontSize: '90%'}}>SuperAwesome</span></strong></h1>
+          <h1><strong>Engineering Lead<span>SuperAwesome</span></strong></h1>
           <p><strong>Engineering Lead (<time dateTime='2019-04-01'>Apr 19</time>&ndash;<time dateTime='2020-01-01'>Jan 20</time>)</strong></p>
           <p>
             Creating a culture of entrepreneurship.

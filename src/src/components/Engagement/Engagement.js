@@ -71,8 +71,13 @@ const StyledEngagement = styled.section`
       letter-spacing: -0.5px;
       margin-top: 0.75rem;
       // background-color: green;
+      > strong {
+        display: block;
+      }
       > strong > span {
-        margin-left: 4px;
+        display: block;
+        margin-top: 0.25rem;
+        margin-bottom: 0.75rem;
         color: rgb(204, 204, 204);
       }
     }
