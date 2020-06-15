@@ -49,7 +49,7 @@ const Me = () => {
             From 2007–2011 thousands of teenagers learnt to code with my software DS Game Maker. After working for PlayStation R&D and Beamery, I joined Entrepreneur First's 10th cohort, kicking off my career in entrepreneurship at SuperAwesome and beyond.
           </p>
           <p>
-            In 2019, I founded <Link href='https://sticky.to'>Sticky</Link>, the world's physical application layer.
+            In 2019, I founded <Link href='https://sticky.to'>Sticky</Link>, creating experiences that grow local economies.
           </p>
           <p className='e-mail-me-link'>
             <Link href='mailto:j@jada.io'><strong>j@jada.io</strong></Link>
@@ -68,22 +68,19 @@ const Me = () => {
             <img src={icons.engagements.sticky} alt='Sticky' />
           </a>
           <p>
-            <time dateTime='2019-09-01'>Oct 19</time>&ndash;
+            <time dateTime='2020-02-01'>Feb 20</time>&ndash;
           </p>
         </div>
         <div>
-          <h1><strong>Co-founder<span>Sticky</span></strong></h1>
+          <h1><strong>Co-founder (CEO)<span>Sticky</span></strong></h1>
           <p>
-            <strong>Sticky is reality's application layer.</strong>
+            <strong>We create experiences that grow local economies... with stickers.</strong>
           </p>
           <p>
-            Most companies can create great digital products, and some companies can create great physical products, but hardly any companies create products that are both.
+            Our discoverytech is reinvigorating the highstreet, whilst our flagship retailtech reimagines the in-store+online retail experience allowing your customers to check out in &lt;5s without having to queue.
           </p>
           <p>
-            To solve this we created Sticky, reality's application layer.
-          </p>
-          <p>
-            Boost consumer loyalty, convenience and interaction by connecting apps and workflows with things and people to make a new kind of application that's both digital and physical.
+            Look to our gymtech for a connected fitness experience that works both indoors and outdoors, all without Bluetooth or downloading an app. 
           </p>
         </div>
       </Engagement>

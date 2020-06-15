@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './index.css'
 
 import Header from './components/Header/Header'
+
 import Me from './parts/Me'
-import Startups from './parts/Startups'
 
 const App = () => {
   return (
@@ -14,7 +14,6 @@ const App = () => {
         <Header />
         <Switch>
           <Route path='/' exact strict component={Me} />
-          <Route path='/startups' exact strict component={Startups} />
         </Switch>
       </Router>
     </main>
