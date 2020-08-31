@@ -43,13 +43,16 @@ const Me = () => {
         </div>
         <div>
           <p>
-            I'm a deep tech founder and I care about ubiquitous computing, hyper-personalisation, semantics and building the future.
+            I'm a deep tech founder with a focus on ubiquitous computing, personalisation, semantics and digital ethics.
           </p>
           <p>
-            From 2007–2011 thousands of teenagers learnt to code with my software DS Game Maker. After working for PlayStation R&D and Beamery, I joined Entrepreneur First's 10th cohort, kicking off my career in entrepreneurship at SuperAwesome and beyond.
+            <strong>My goal is to build the future.</strong>
           </p>
           <p>
-            In 2019, I founded <Link href='https://sticky.to'>Sticky</Link>, creating experiences that grow local economies.
+            From 2007–2011 thousands of teenagers learnt to code with my software DS Game Maker. After working for PlayStation R&D and Beamery, I joined Entrepreneur First's 10th cohort and kicked off my formal career in entrepreneurship.
+          </p>
+          <p>
+            In 2019 I founded <Link href='https://sticky.to'><strong>Sticky</strong></Link>, helping people make branded physical↔digital apps without writing any code.
           </p>
           <p className='e-mail-me-link'>
             <Link href='mailto:j@jada.io'><strong>j@jada.io</strong></Link>
@@ -58,7 +61,7 @@ const Me = () => {
             <Link href='tel:+447903576776'><strong>+44 79035 76776</strong></Link>
           </p>
           <p className='e-mail-me-link'>
-            <Link href='https://twitter.com/jadaradix'><strong>@jadaradix</strong></Link>
+            <Link href='https://twitter.com/jadaradix'><strong>@jadaradix</strong></Link> &nbsp; <Link href='https://linkedin.com/in/jadaradix'><strong>LinkedIn</strong></Link>
           </p>
         </div>
       </Engagement>
@@ -68,19 +71,22 @@ const Me = () => {
             <img src={icons.engagements.sticky} alt='Sticky' />
           </a>
           <p>
-            <time dateTime='2020-02-01'>Feb 20</time>&ndash;
+            <time dateTime='2020-01-31'>Jan 20</time>&ndash;
           </p>
         </div>
         <div>
           <h1><strong>Co-founder (CEO)<span>Sticky</span></strong></h1>
           <p>
-            <strong>We create experiences that grow local economies... with stickers.</strong>
+            <strong>Make branded physical↔digital apps without writing any code.</strong>
           </p>
           <p>
-            Our discoverytech is reinvigorating the highstreet, whilst our flagship retailtech reimagines the in-store+online retail experience allowing your customers to check out in &lt;5s without having to queue.
+            Our tech already improves productivity and convenience in hospitality, fitness, construction and discovery - and we're just getting started.
           </p>
           <p>
-            Look to our gymtech for a connected fitness experience that works both indoors and outdoors, all without Bluetooth or downloading an app. 
+            People interact with our premium branded stickers without having to download an app or sign up for anything.
+          </p>
+          <p>
+            We make and distribute the stickers so we own the experience end-to-end.
           </p>
         </div>
       </Engagement>
@@ -147,7 +153,9 @@ const Me = () => {
       </Engagement>
       <Engagement>
         <div>
-          <img src={icons.engagements.entrepreneurFirst} alt='Entrepreneur First' />
+          <a href='https://joinef.com'>
+            <img src={icons.engagements.entrepreneurFirst} alt='Entrepreneur First' />
+          </a>
           <p>
             <time dateTime='2018-03-01'>Mar 18</time>&ndash;<time dateTime='2018-07-01'>Jul 18</time>
           </p>
@@ -164,7 +172,9 @@ const Me = () => {
       </Engagement>
       <Engagement>
         <div>
-          <img src={icons.engagements.beamery} alt='Beamery' />
+          <a href='https://beamery.com'>
+            <img src={icons.engagements.beamery} alt='Beamery' />
+          </a>
           <p>
             <time dateTime='2017-02-01'>Feb 17</time>&ndash;<time dateTime='2018-03-01'>Mar 18</time>
           </p>
@@ -218,7 +228,9 @@ const Me = () => {
       </Engagement>
       <Engagement>
         <div>
-          <img src={icons.engagements.relativeInsight} alt='Relative Insight' />
+          <a href='https://relativeinsight.com/'>
+            <img src={icons.engagements.relativeInsight} alt='Relative Insight' />
+          </a>
           <p>
             <time dateTime='2014-11-01'>Nov 14</time>&ndash;<time dateTime='2015-09-01'>Oct 15</time>
           </p>
