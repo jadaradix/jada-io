@@ -103,17 +103,17 @@ const Me = () => {
           <h1><strong>Engineering Lead<span>SuperAwesome</span></strong></h1>
           <p><strong>Engineering Lead (<time dateTime='2019-04-01'>Apr 19</time>&ndash;<time dateTime='2020-01-01'>Jan 20</time>)</strong></p>
           <p>
-            Creating a culture of entrepreneurship.
+            Created a culture of entrepreneurship.
           </p>
           <p>
-            Working on teams&rsquo; operational strategy (process, knowledge sharing, cross-team collaboration).
+            Worked on teams&rsquo; operational strategy (process, knowledge sharing, cross-team collaboration).
           </p>
           <p>
             Line management (aligning on company initiatives and career mentorship through personal development).
           </p>
           <p><strong>Senior Engineer (<time dateTime='2018-11-01'>Nov 18</time>&ndash;<time dateTime='2019-04-01'>Apr 19</time>)</strong></p>
           <p>
-            Delivering the next generation of PII-free advertising, taking the project from a proof-of-concept to a market-ready product with an Enterprise customer. Achievements including introducing React and Jest, 100% test coverage and distributed architecture reaching Kubernetes scaling limits.
+            Delivered the next generation of PII-free advertising, taking the project from a proof-of-concept to a market-ready product with an enterprise customer. Achievements include introducing React and Jest, 100% test coverage and distributed architecture reaching Kubernetes scaling limits.
           </p>
         </div>
       </Engagement>
