@@ -54,8 +54,8 @@ const Header = ({ children }) => (
     </Link>
     <nav>
       <ul>
-        <li><Link to='/'>About me</Link></li>
-        <li><a href='https://cv.jada.io'>CV</a></li>
+        {/* <li><Link to='/'>About me</Link></li> */}
+        <li><a href='https://cv.jada.io'>Go to my CV</a></li>
       </ul>
     </nav>
   </StyledHeader>

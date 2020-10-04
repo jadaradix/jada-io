@@ -75,7 +75,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1><strong>Co-founder (CEO)<span>Sticky</span></strong></h1>
+          <h1><strong>Founder (CEO)<span>Sticky</span></strong></h1>
           <p>
             <strong>Make branded physical↔digital apps without writing any code.</strong>
           </p>
