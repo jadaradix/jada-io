@@ -1,18 +1,10 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 const StyledHeader = styled.header`
-  border-radius: 8px;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
   .logo {
     display: inline-block;
-    margin-top: 1.5rem;
-    margin-bottom: 0.25rem;
-    margin-left: 1rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
     font-size: 3rem;
     line-height: 2rem;
     line-height: 3rem;
@@ -47,25 +39,15 @@ const StyledHeader = styled.header`
   }
 `
 
-const Header = ({ children }) => (
+const Header = () => (
   <StyledHeader>
     <Link className='logo' to='/'>
       <strong>James Garner</strong>
     </Link>
-    <nav>
-      <ul>
-        {/* <li><Link to='/'>About me</Link></li> */}
-        <li><a href='https://cv.jada.io'>Go to my CV</a></li>
-      </ul>
-    </nav>
   </StyledHeader>
 )
 
 Header.propTypes = {
-  children: PropTypes.oneOfType([
-    PropTypes.arrayOf(PropTypes.node),
-    PropTypes.node
-  ])
 }
 
 Header.defaultProps = {}

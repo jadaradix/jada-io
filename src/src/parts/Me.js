@@ -9,6 +9,7 @@ import Link from '../components/Link/Link'
 const StyledPage = styled.article`
   .e-mail-me-link {
     margin-top: 1rem !important;
+    line-height: 1.5rem !important;
     a {
       font-size: 1.2rem;
     }
@@ -43,22 +44,13 @@ const Me = () => {
         </div>
         <div>
           <p>
-            I'm a deep tech founder with a focus on ubiquitous computing, personalisation, semantics and digital ethics.
+          I'm a deep tech founder with a focus on ubiquitous computing, personalisation and digital ethics.
           </p>
           <p>
-            <strong>My goal is to build the future.</strong>
-          </p>
-          <p>
-            From 2007–2011 thousands of teenagers learnt to code with my software DS Game Maker. After working for PlayStation R&D and Beamery, I joined Entrepreneur First's 10th cohort and kicked off my formal career in entrepreneurship.
-          </p>
-          <p>
-            In 2019 I founded <Link href='https://sticky.to'><strong>Sticky</strong></Link>, helping people make branded physical↔digital apps without writing any code.
+          My goal is to build the future. I use technology to empower people to break free, do more and grow local economies.
           </p>
           <p className='e-mail-me-link'>
-            <Link href='mailto:j@jada.io'><strong>j@jada.io</strong></Link>
-          </p>
-          <p className='e-mail-me-link'>
-            <Link href='tel:+447903576776'><strong>+44 79035 76776</strong></Link>
+            <Link href='https://cv.jada.io'><strong>Go to my CV</strong></Link> &nbsp; <Link href='mailto:j@jada.io'><strong>j@jada.io</strong></Link> &nbsp; <Link href='tel:+447903576776'><strong>+44 79035 76776</strong></Link>
           </p>
           <p className='e-mail-me-link'>
             <Link href='https://twitter.com/jadaradix'><strong>@jadaradix</strong></Link> &nbsp; <Link href='https://linkedin.com/in/jadaradix'><strong>LinkedIn</strong></Link>
@@ -75,18 +67,9 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1><strong>Founder (CEO)<span>Sticky</span></strong></h1>
+          <h1><strong>CEO<span>Sticky</span></strong></h1>
           <p>
-            <strong>Make branded physical↔digital apps without writing any code.</strong>
-          </p>
-          <p>
-            Our tech already improves productivity and convenience in hospitality, fitness, construction and discovery - and we're just getting started.
-          </p>
-          <p>
-            People interact with our premium branded stickers without having to download an app or sign up for anything.
-          </p>
-          <p>
-            We make and distribute the stickers so we own the experience end-to-end.
+            <strong>Solve problems in physical spaces with Sticky™ branded stickers.</strong>
           </p>
         </div>
       </Engagement>

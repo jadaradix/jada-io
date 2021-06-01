@@ -9,19 +9,6 @@ const StyledEngagement = styled.section`
   border-radius: 8px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
   position: relative;
-  a.cv-link {
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
-    width: 1.25rem;
-    height: 1.25rem;
-    // background-color: red;
-    img {
-      display: block;
-      width: 100%;
-      height: 100%;
-    }
-  }
   > div:nth-of-type(1) {
     float: left;
     margin-right: 1rem;
