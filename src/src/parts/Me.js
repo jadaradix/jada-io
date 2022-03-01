@@ -44,10 +44,10 @@ const Me = () => {
         </div>
         <div>
           <p>
-          I'm a deep tech founder with a focus on ubiquitous computing, personalisation and digital ethics.
+            I'm a deep tech founder with a focus on ubiquitous computing, personalisation and digital ethics.
           </p>
           <p>
-          My goal is to build the future. I use technology to empower people to break free, do more and grow local economies.
+            My goal is to build the future. I use technology to empower people to break free, do more and grow local economies.
           </p>
           <p className='e-mail-me-link'>
             <Link href='https://cv.jada.io'><strong>Go to my CV</strong></Link> &nbsp; <Link href='mailto:j@jada.io'><strong>j@jada.io</strong></Link> &nbsp; <Link href='tel:+447903576776'><strong>+44 79035 76776</strong></Link>
@@ -69,7 +69,7 @@ const Me = () => {
         <div>
           <h1><strong>CEO<span>Sticky™</span></strong></h1>
           <p>
-            <strong>Make every customer interaction 10s or less.</strong>
+            Make every customer interaction 10s or less.
           </p>
         </div>
       </Engagement>
