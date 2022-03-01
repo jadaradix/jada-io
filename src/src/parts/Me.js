@@ -67,9 +67,9 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1><strong>CEO<span>Sticky</span></strong></h1>
+          <h1><strong>CEO<span>Sticky™</span></strong></h1>
           <p>
-            <strong>Solve problems in physical spaces with Sticky™ branded stickers.</strong>
+            <strong>Make every customer interaction 10s or less.</strong>
           </p>
         </div>
       </Engagement>
