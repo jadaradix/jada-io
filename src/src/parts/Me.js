@@ -44,16 +44,16 @@ const Me = () => {
         </div>
         <div>
           <p>
-            I'm a deep tech founder with a focus on ubiquitous computing, personalisation and digital ethics.
+            I'm a deep tech founder with a focus on ubiquitous computing and digital ethics.
           </p>
           <p>
-            My goal is to build the future. I use technology to empower people to break free, do more and grow local economies.
+            I'm here to build the future, using technology to empower people to break free, do more and grow local economies.
           </p>
           <p className='e-mail-me-link'>
-            <Link href='https://cv.jada.io'><strong>Go to my CV</strong></Link> &nbsp; <Link href='mailto:j@jada.io'><strong>j@jada.io</strong></Link> &nbsp; <Link href='tel:+447903576776'><strong>+44 79035 76776</strong></Link>
+            <Link href='https://linkedin.com/in/jadaradix'><strong>LinkedIn</strong></Link> &nbsp; <Link href='https://twitter.com/jadaradix'><strong>@jadaradix</strong></Link>
           </p>
           <p className='e-mail-me-link'>
-            <Link href='https://twitter.com/jadaradix'><strong>@jadaradix</strong></Link> &nbsp; <Link href='https://linkedin.com/in/jadaradix'><strong>LinkedIn</strong></Link>
+            <Link href='https://cv.jada.io'><strong>CV</strong></Link> &nbsp; <Link href='mailto:j@jada.io'><strong>j@jada.io</strong></Link> &nbsp; <Link href='tel:+447903576776'><strong>+44 79035 76776</strong></Link>
           </p>
         </div>
       </Engagement>
@@ -108,12 +108,12 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1><strong>Senior Consultant<span>Arcadia Group</span></strong></h1>
+          <h1><strong>Developer (contract)<span>Arcadia Group</span></strong></h1>
           <p>
-            Contract. On-site via 101 Ways helping transform engineering and replatform to React+Node.js.
+            Replatforming to React and Node.js.
           </p>
           <p>
-            Pair-owning greenfield component library used accross 7 brands whilst conducting dozens of technical interviews for 101 Ways.
+            Pair-owning greenfield component library used accross 7 brands whilst conducting dozens of technical interviews.
           </p>
         </div>
       </Engagement>
@@ -163,7 +163,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1><strong>Engineer<span>Beamery</span></strong></h1>
+          <h1><strong>Developer<span>Beamery</span></strong></h1>
           <p>
             Early engineering hire pre-Series A to Series B.
           </p>
@@ -180,7 +180,7 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1><strong>Engineer<span>PlayStation</span></strong></h1>
+          <h1><strong>Developer<span>PlayStation</span></strong></h1>
           <p>
             R&amp;D. Engineering on PlayStation’s best-in-class developer platform between London and San Mateo, CA.
           </p>
@@ -219,12 +219,9 @@ const Me = () => {
           </p>
         </div>
         <div>
-          <h1><strong>Data Scientist<span>Relative Insight</span></strong></h1>
+          <h1><strong>Developer<span>Relative Insight</span></strong></h1>
           <p>
-            Developed Python web scrapers for high profile brands including Oxford University and Smirnoff.
-          </p>
-          <p>
-            Published language normalisation algorithms for Mumsnet and Twitter.
+            Built Python web scrapers and language normalisation algorithms for Oxford University, Smirnoff, Mumsnet and Twitter.
           </p>
         </div>
       </Engagement>
