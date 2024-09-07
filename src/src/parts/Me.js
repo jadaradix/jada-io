@@ -53,7 +53,7 @@ const Me = () => {
             <Link href='https://linkedin.com/in/jadaradix'><strong>LinkedIn</strong></Link> &nbsp; <Link href='https://twitter.com/jadaradix'><strong>@jadaradix</strong></Link>
           </p>
           <p className='e-mail-me-link'>
-            <Link href='https://cv.jada.io'><strong>CV</strong></Link> &nbsp; <Link href='mailto:j@jada.io'><strong>j@jada.io</strong></Link> &nbsp; <Link href='tel:+447903576776'><strong>+44 79035 76776</strong></Link>
+            <Link href='/James Garner.pdf'><strong>CV</strong></Link> &nbsp; <Link href='mailto:j@jada.io'><strong>j@jada.io</strong></Link> &nbsp; <Link href='tel:+447903576776'><strong>+44 79035 76776</strong></Link>
           </p>
         </div>
       </Engagement>
